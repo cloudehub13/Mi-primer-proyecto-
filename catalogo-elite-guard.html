@@ -231,6 +231,11 @@ select[data-on="1"]{border-color:var(--accent);color:var(--accent)}
 .tab:hover{color:var(--text)}
 .tab.on{color:var(--accent);border-bottom-color:var(--accent)}
 .pane{padding-top:4px}
+.cchips{display:flex;gap:6px;flex-wrap:wrap}
+.cchip{display:inline-flex;align-items:center;gap:7px;font-size:.8rem;color:var(--text-soft);
+  border:1px solid var(--edge);border-radius:100px;padding:4px 12px 4px 5px;background:var(--card)}
+.cchip i{width:16px;height:16px;border-radius:50%;border:1px solid rgba(128,128,128,.4);flex:none}
+.cchip.solotexto{padding-left:12px}
 .lav{display:grid;grid-template-columns:1fr 1fr;gap:4px 18px}
 @media(max-width:560px){.lav{grid-template-columns:1fr}}
 .pdfrow{margin-top:22px}
@@ -565,6 +570,23 @@ let modalP=null, DL=null;
 if(window.claude&&claude.use){
   claude.use("downloads").then(d=>{DL=d;document.body.classList.toggle("has-dl",!!d)}).catch(()=>{});
 }
+const COL={"negro":"#1c1c1c","blanco":"#f4f4f2","gris":"#8b8b8b","gris oscuro":"#4a4a4a",
+ "rojo":"#c8102e","naranja":"#f4641c","naranja fluorescente":"#ff6a13","naranja hi-vis":"#ff6a13",
+ "amarillo":"#f2e500","amarillo-lima":"#d8e142","lima":"#d8e142","lima alta visibilidad":"#d8e142",
+ "verde hi-vis":"#a9d12a","verde":"#1e6e3c","verde botella":"#123f28","caqui":"#8a7f5c",
+ "azul":"#1f57a4","azul marino":"#1b2740","marino":"#1b2740","azul royal":"#0f49a9","azulina":"#0f49a9",
+ "azul \u00edndigo":"#2f4f7d","\u00edndigo":"#2f4f7d","natural":"#e6dcc6","crema":"#efe6d2",
+ "dorado":"#c9a227","marr\u00f3n":"#6b4a2f","beige":"#d9c9a8","morado":"#5b2a72","rosado":"#e58fa8"};
+function muestrasColor(txt){
+  if(!txt) return "";
+  const partes=txt.split(/[,\/\u00b7]|\sy\s/).map(t=>t.trim()).filter(Boolean);
+  return partes.map(t=>{
+    const k=t.toLowerCase().replace(/\s*\(.*$/,"").trim();
+    const hex=COL[k];
+    return hex ? `<span class="cchip"><i style="background:${hex}"></i>${esc(t)}</span>`
+               : `<span class="cchip solotexto">${esc(t)}</span>`;
+  }).join("");
+}
 function pintarColor(p,i){
   const g=p.imgs||[], src=g.length?g[i].src:p.img;
   $("#m-well").className="well"+(src?"":" ph");
@@ -593,10 +615,12 @@ async function bajarFicha(b){
 function openModal(p){
   modalP=p;
   const g=p.imgs||[];
-  const kv=[["Marca",p.brandLabel],["Material",p.material],["Tallas",p.tallas],["Colores",p.colores],["Presentación",p.pres]]
+  const kv=[["Marca",p.brandLabel],["Material",p.material],["Tallas",p.tallas],["Presentación",p.pres]]
     .filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${esc(x[1])}</dd>`).join("");
   const wa=`https://wa.me/${K.waNum}?text=${encodeURIComponent("Hola, me interesa: "+p.name+(p.ref?" (REF "+p.ref+")":"")+". ¿Precio y disponibilidad?")}`;
+  const muestras=g.length?"":muestrasColor(p.colores);
   const tecnica=`${kv?`<div class="sph">Especificaciones</div><dl class="kv">${kv}</dl>`:""}
+      ${muestras?`<div class="sph">Colores disponibles</div><div class="cchips">${muestras}</div>`:""}
       ${p.normas.length?`<div class="sph">Normas y certificaciones</div><div class="chips">${p.normas.map(n=>`<span>${esc(n)}</span>`).join("")}</div>`:""}
       ${p.lavado?`<div class="sph">Cuidados de lavado</div><ul class="lav">${p.lavado.split(" · ").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
       ${p.notas?`<div class="note">${esc(p.notas)}</div>`:""}
