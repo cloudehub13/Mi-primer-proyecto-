@@ -628,7 +628,7 @@ function openModal(p){
     .filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${esc(x[1])}</dd>`).join("");
   const wa=`https://wa.me/${K.waNum}?text=${encodeURIComponent("Hola, me interesa: "+p.name+(p.ref?" (REF "+p.ref+")":"")+". ¿Precio y disponibilidad?")}`;
   const tecnica=`${kv?`<div class="sph">Especificaciones</div><dl class="kv">${kv}</dl>`:""}
-      ${p.colores?`<div class="sph">Colores disponibles</div><div class="cchips" id="m-cchips">${muestrasColor(p,0)}</div>`:""}
+      ${p.colores?`<div class="sph">Colores disponibles${(p.imgs&&p.imgs.length>1)?" · toca para ver la foto":""}</div><div class="cchips" id="m-cchips">${muestrasColor(p,0)}</div>`:""}
       ${p.normas.length?`<div class="sph">Normas y certificaciones</div><div class="chips">${p.normas.map(n=>`<span>${esc(n)}</span>`).join("")}</div>`:""}
       ${p.lavado?`<div class="sph">Cuidados de lavado</div><ul class="lav">${p.lavado.split(" · ").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
       ${p.notas?`<div class="note">${esc(p.notas)}</div>`:""}
