@@ -237,7 +237,8 @@ select[data-on="1"]{border-color:var(--accent);color:var(--accent)}
 .btn.pdf{background:transparent;color:var(--text);border:1.5px solid var(--edge)}
 .btn.pdf:hover{border-color:var(--accent);color:var(--accent)}
 .btn.pdf[disabled]{opacity:.6;cursor:default}
-body:not(.has-dl) .pdfrow{display:none}
+body:not(.has-dl) .pdfrow.dl{display:none}
+.pdfrow a.btn.pdf{text-decoration:none}
 .mgrid .well img{max-height:440px}
 .panel{padding:30px 34px 34px;max-height:82vh;overflow-y:auto}
 .panel h2{font-size:1.5rem;font-weight:800;margin:10px 0 5px}
@@ -574,7 +575,7 @@ function pintarColor(p,i){
   if(sw)sw.innerHTML=g.map((v,k)=>`<button type="button" class="sw${k===i?" on":""}" data-i="${k}" title="${esc(v.c)}" aria-label="${esc(v.c)}"><i style="background:${v.hex}"></i></button>`).join("");
 }
 async function bajarFicha(b){
-  const p=modalP; if(!p||!p.pdf)return;
+  const p=modalP; if(!p||!p.pdf||!p.pdf.b64)return;
   const txt=b.dataset.txt||b.textContent; b.dataset.txt=txt;
   b.disabled=true; b.textContent="Preparando…";
   const restaura=(m)=>{b.textContent=m;setTimeout(()=>{b.textContent=txt;b.disabled=false},2400)};
@@ -599,7 +600,7 @@ function openModal(p){
       ${p.normas.length?`<div class="sph">Normas y certificaciones</div><div class="chips">${p.normas.map(n=>`<span>${esc(n)}</span>`).join("")}</div>`:""}
       ${p.lavado?`<div class="sph">Cuidados de lavado</div><ul class="lav">${p.lavado.split(" · ").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
       ${p.notas?`<div class="note">${esc(p.notas)}</div>`:""}
-      ${p.pdf?`<div class="sph">Documentación</div><div class="pdfrow"><button type="button" class="btn pdf" data-pdf>↓ Ficha técnica (PDF)</button></div>`:""}`;
+      ${p.pdf?`<div class="sph">Documentación</div><div class="pdfrow${p.pdf.url?"":" dl"}">${p.pdf.url?`<a class="btn pdf" href="${esc(p.pdf.url)}" target="_blank" rel="noopener">↓ Ficha técnica (PDF)</a>`:`<button type="button" class="btn pdf" data-pdf>↓ Ficha técnica (PDF)</button>`}</div>`:""}`;
   $("#m-panel").innerHTML=`
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
       <span class="btag ${p.brand}">${esc(p.brandLabel)}</span>
