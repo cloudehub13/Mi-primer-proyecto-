@@ -20,38 +20,37 @@ Aquí las fotos y las fichas son archivos aparte: no hay tope, y el cliente solo
 descarga la foto que mira, no las 140. La primera visita pesa ~0,3 MB en vez
 de 15,5 MB.
 
-## Publicarlo (una sola vez)
-
-### Opción A — GitHub Pages (recomendada, gratis, sin cuenta nueva)
-
-1. Que esta rama se fusione a `main`.
-2. En GitHub: **Settings → Pages**.
-3. En *Source* elegir **Deploy from a branch**, rama **main**, carpeta **/docs**.
-4. **Save**.
-
-A los 1–2 minutos el catálogo queda en:
+## Dónde está publicado
 
 ```
 https://cloudehub13.github.io/Mi-primer-proyecto-/
 ```
 
-Ese es el enlace que se le manda al cliente. Cada vez que se haga push a `main`
-el sitio se actualiza solo.
+Ese es el enlace que se le manda al cliente. Ya está activo.
 
-### Opción B — Netlify (si después se quiere dominio propio)
+GitHub Pages sirve la rama **`gh-pages`**, no `main`. `main` es donde vive el
+proyecto; `gh-pages` es una copia del contenido de `docs/` puesto en la raíz.
+No se edita a mano: la genera el script.
 
-Conectar el repositorio en Netlify con:
+### Para publicar un cambio
 
-- Base directory: `docs`
-- Build command: *(vacío)*
-- Publish directory: `docs`
+```sh
+./publicar.sh
+```
 
-`netlify.toml` ya trae las reglas de caché.
+Eso sube `main` y regenera `gh-pages` a partir de `docs/`. El sitio se
+actualiza en 1–2 minutos.
+
+> Se intentó automatizarlo con GitHub Actions y no se pudo: el permiso por
+> defecto de los workflows de este repositorio es de solo lectura, así que
+> ningún workflow puede escribir. Si algún día se cambia en
+> *Settings → Actions → General → Workflow permissions* a **Read and write**,
+> se puede automatizar y el script deja de hacer falta.
 
 ### Dominio propio
 
-Con cualquiera de las dos opciones se le puede poner
-`catalogo.eliteguardsa.com` apuntando un CNAME desde el proveedor del dominio.
+Se le puede poner `catalogo.eliteguardsa.com` apuntando un CNAME desde el
+proveedor del dominio y agregando un archivo `CNAME` dentro de `docs/`.
 
 ## Cómo se agrega un producto
 
