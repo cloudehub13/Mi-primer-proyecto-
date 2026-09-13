@@ -514,7 +514,7 @@ function card(p,cls){
     <div class="body"><span class="btag ${p.brand}">${esc(p.brandLabel)}</span>
       <h3>${esc(p.name)}</h3>
       ${p.ref?`<div class="ref">REF ${esc(p.ref)}</div>`:""}
-      ${p.desc?`<p class="desc">${esc(p.desc)}</p>`:""}
+      ${p.desc?`<p class="desc">${mdi(p.desc)}</p>`:""}
       ${stds?`<div class="stds">${stds}</div>`:""}
     </div></button>`;
 }
@@ -631,7 +631,7 @@ function openModal(p){
       ${p.colores?`<div class="sph">Colores disponibles${(p.imgs&&p.imgs.length>1)?" · toca para ver la foto":""}</div><div class="cchips" id="m-cchips">${muestrasColor(p,0)}</div>`:""}
       ${p.normas.length?`<div class="sph">Normas y certificaciones</div><div class="chips">${p.normas.map(n=>`<span>${esc(n)}</span>`).join("")}</div>`:""}
       ${p.lavado?`<div class="sph">Cuidados de lavado</div><ul class="lav">${p.lavado.split(" · ").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
-      ${p.notas?`<div class="note">${esc(p.notas)}</div>`:""}
+      ${p.notas?`<div class="note">${mdi(p.notas)}</div>`:""}
       ${p.pdf?`<div class="sph">Documentación</div><div class="pdfrow${p.pdf.url?"":" dl"}">${p.pdf.url?`<a class="btn pdf" href="${esc(p.pdf.url)}" target="_blank" rel="noopener">↓ Ficha técnica (PDF)</a>`:`<button type="button" class="btn pdf" data-pdf>↓ Ficha técnica (PDF)</button>`}</div>`:""}`;
   $("#m-panel").innerHTML=`
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
@@ -645,7 +645,7 @@ function openModal(p){
       <button type="button" class="tab" data-t="t">Ficha técnica</button>
     </div>
     <div class="pane" data-p="d">
-      ${p.desc?`<p class="lede">${esc(p.desc)}</p>`:""}
+      ${p.desc?`<p class="lede">${mdi(p.desc)}</p>`:""}
       ${p.usos.length?`<div class="sph">Ideal para</div><ul>${p.usos.map(u=>`<li>${esc(u)}</li>`).join("")}</ul>`:""}
     </div>
     <div class="pane" data-p="t" hidden>${tecnica}</div>
