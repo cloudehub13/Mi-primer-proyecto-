@@ -93,7 +93,7 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Rubros cerrados en esta ronda
 
-**Impermeables (capotes)** — 4 de 6 completos. Se sacaron los dos de MCR.
+**Impermeables (capotes)** — CERRADO: 6 de 6 completos. Se sacaron los dos de MCR.
 
 | REF | Producto | Tallas | Colores |
 |---|---|---|---|
@@ -104,7 +104,7 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 | J22207 | Chaqueta impermeable Iron Eagle® · Tingley | XS a 4XL | Dorado, verde, azul |
 | J24122 | Chaqueta impermeable hi-vis Clase 3 · Tingley | S a 5XL | Amarillo-lima, naranja |
 
-Falta: fichas de Tingley J22207 y J24122.
+Pendiente: la foto de la J24122 no corresponde al modelo Icon (lleva cinta naranja de contraste; la Icon lleva cinta plateada lisa). Hace falta la foto correcta.
 
 ## Decisiones abiertas
 
