@@ -93,18 +93,17 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Rubros cerrados en esta ronda
 
-**Impermeables (capotes)** — CERRADO: 6 de 6 completos. Se sacaron los dos de MCR.
+**Impermeables (capotes)** — CERRADO: 6 de 6 completos. Se sacaron los dos de MCR y los dos de Tingley; entraron S440 y S441 de Portwest.
 
-| REF | Producto | Tallas | Colores |
-|---|---|---|---|
-| RCOAT-27 | Capote impermeable de 1 pieza con capucha · Elite Guard | S a 3XL | Amarillo lima fluorescente |
-| RCOAT-26 | Conjunto impermeable de 2 piezas · Elite Guard | S a 3XL | Amarillo lima fluorescente |
-| H440 | Chubasquero hi-vis Clase 3 Essentials 190T · Portwest | XS a 6XL | Naranja, amarillo |
-| H444 | Pantalón hi-vis para lluvia Classic Contrast · Portwest | XS a 3XL | Naranja, amarillo |
-| J22207 | Chaqueta impermeable Iron Eagle® · Tingley | XS a 4XL | Dorado, verde, azul |
-| J24122 | Chaqueta impermeable hi-vis Clase 3 · Tingley | S a 5XL | Amarillo-lima, naranja |
-
-Pendiente: la foto de la J24122 no corresponde al modelo Icon (lleva cinta naranja de contraste; la Icon lleva cinta plateada lisa). Hace falta la foto correcta.
+| REF | Producto | Marca | Tallas | Colores |
+|---|---|---|---|---|
+| RCOAT-27 | Capote impermeable de 1 pieza con capucha | Elite Guard | S a 3XL | Amarillo lima fluorescente |
+| RCOAT-26 | Conjunto impermeable de 2 piezas | Elite Guard | S a 3XL | Amarillo lima fluorescente |
+| H440 | Chubasquero hi-vis Clase 3 Essentials 190T | Portwest | XS a 6XL | Naranja, amarillo |
+| H444 | Pantalón hi-vis para lluvia Classic Contrast | Portwest | XS a 3XL | Naranja, amarillo |
+| S440 | Chubasquero impermeable Classic | Portwest | S a 6XL | Amarillo |
+| S441 | Pantalón impermeable Classic | Portwest | S a 6XL | Amarillo |
+Pendiente: confirmar si el S440/S441 llega a 7XL (la ficha de Portwest dice 6XL) y qué colores se traen además del amarillo.
 
 ## Decisiones abiertas
 
