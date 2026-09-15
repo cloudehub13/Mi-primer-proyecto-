@@ -93,17 +93,16 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Rubros cerrados en esta ronda
 
-**Impermeables (capotes)** — 5 de 7 completos.
+**Impermeables (capotes)** — 4 de 6 completos. Se sacaron los dos de MCR.
 
 | REF | Producto | Tallas | Colores |
 |---|---|---|---|
-| RCOAT-27 | Capote 1 pieza · Elite Guard | S a 3XL | Amarillo lima fluorescente |
-| RCOAT-26 | Conjunto 2 piezas · Elite Guard | S a 3XL | Amarillo lima fluorescente |
-| H440 | Chubasquero hi-vis Clase 3 · Portwest | XS a 6XL | Naranja, amarillo |
-| H444 | Pantalón hi-vis lluvia · Portwest | XS a 3XL | Naranja, amarillo |
-| J22207 | Chaqueta Iron Eagle · Tingley | XS a 4XL | Dorado, verde, azul |
-| J24122 | Chaqueta hi-vis Clase 3 · Tingley | S a 5XL | Amarillo-lima, naranja |
-| 2003 | Traje PVC 3 piezas · MCR | S a 7XL | Amarillo |
+| RCOAT-27 | Capote impermeable de 1 pieza con capucha · Elite Guard | S a 3XL | Amarillo lima fluorescente |
+| RCOAT-26 | Conjunto impermeable de 2 piezas · Elite Guard | S a 3XL | Amarillo lima fluorescente |
+| H440 | Chubasquero hi-vis Clase 3 Essentials 190T · Portwest | XS a 6XL | Naranja, amarillo |
+| H444 | Pantalón hi-vis para lluvia Classic Contrast · Portwest | XS a 3XL | Naranja, amarillo |
+| J22207 | Chaqueta impermeable Iron Eagle® · Tingley | XS a 4XL | Dorado, verde, azul |
+| J24122 | Chaqueta impermeable hi-vis Clase 3 · Tingley | S a 5XL | Amarillo-lima, naranja |
 
 Falta: fichas de Tingley J22207 y J24122.
 
