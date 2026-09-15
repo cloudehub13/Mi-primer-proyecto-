@@ -469,6 +469,8 @@ footer .meta{font-family:"IBM Plex Mono";font-size:10.5px;color:#7C7266;letter-s
 const P=B.products, RU=B.rubros, SEC=B.sectors, FEAT=B.featured, K=B.contact, BS=B.brandSites||{};
 const state={q:"",brand:"all",sec:"all"};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const VER="0";  /* lo reescribe publicar.sh en cada publicacion */
+const v=u=>u?u+(u.includes("?")?"&":"?")+"v="+VER:u;
 const esc=s=>(s||"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const mdi=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");
 
@@ -522,7 +524,7 @@ function match(p){
 }
 
 function card(p,cls){
-  const img=p.img?`<div class="well"><img loading="lazy" src="${p.img}" alt="${esc(p.name)}"><span class="see">Ver ficha</span></div>`
+  const img=p.img?`<div class="well"><img loading="lazy" src="${v(p.img)}" alt="${esc(p.name)}"><span class="see">Ver ficha</span></div>`
     :`<div class="well ph"><span class="ph-b">Foto próximamente</span></div>`;
   const stds=p.normas.slice(0,3).map(n=>`<span class="std">${esc(n)}</span>`).join("");
   return `<button class="card ${cls||""}" data-id="${p.id}">${img}
@@ -617,7 +619,7 @@ function muestrasColor(p,sel){
 function pintarColor(p,i){
   const g=p.imgs||[], src=g.length?(g[i].src||p.img):p.img;
   $("#m-well").className="well"+(src?"":" ph");
-  $("#m-well").innerHTML=src?`<img src="${src}" alt="${esc(p.name)}${g.length?" — "+esc(g[i].c):""}">`:`<span class="ph-b">Foto próximamente</span>`;
+  $("#m-well").innerHTML=src?`<img src="${v(src)}" alt="${esc(p.name)}${g.length?" — "+esc(g[i].c):""}">`:`<span class="ph-b">Foto próximamente</span>`;
   const ch=$("#m-cchips"); if(ch)ch.innerHTML=muestrasColor(p,i);
 }
 async function bajarFicha(b){
@@ -647,7 +649,7 @@ function openModal(p){
       ${p.normas.length?`<div class="sph">Normas y certificaciones</div><div class="chips">${p.normas.map(n=>`<span>${esc(n)}</span>`).join("")}</div>`:""}
       ${p.lavado?`<div class="sph">Cuidados de lavado</div><ul class="lav">${p.lavado.split(" · ").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
       ${p.notas?`<div class="note">${mdi(p.notas)}</div>`:""}
-      ${p.pdf?`<div class="sph">Documentación</div><div class="pdfrow${p.pdf.url?"":" dl"}">${p.pdf.url?`<a class="btn pdf" href="${esc(p.pdf.url)}" target="_blank" rel="noopener">↓ Ficha técnica (PDF)</a>`:`<button type="button" class="btn pdf" data-pdf>↓ Ficha técnica (PDF)</button>`}</div>`:""}`;
+      ${p.pdf?`<div class="sph">Documentación</div><div class="pdfrow${p.pdf.url?"":" dl"}">${p.pdf.url?`<a class="btn pdf" href="${esc(v(p.pdf.url))}" target="_blank" rel="noopener">↓ Ficha técnica (PDF)</a>`:`<button type="button" class="btn pdf" data-pdf>↓ Ficha técnica (PDF)</button>`}</div>`:""}`;
   $("#m-panel").innerHTML=`
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
       <span class="btag ${p.brand}">${esc(p.brandLabel)}</span>
