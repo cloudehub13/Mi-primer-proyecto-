@@ -307,7 +307,7 @@ RENGLONES = [
   "archivo": "03-RENGLON-3-PPE-EYE-00028.pdf",
   "prod": {"marca": "MCR Safety", "modelo": "Law&reg; OTG (serie OG1)",
            "pn": "OG110AF", "cant": "5,200", "um": "Pr (par/unidad)",
-           "ref_acp": "North T11005 / Uvex S2500 &mdash; no se oferta el producto de referencia; se oferta producto equivalente que cumple al 100%"},
+           "ref_acp": "La descripción vigente del renglón (revisada por CHSH en septiembre de 2026) <b>no indica producto de referencia ACP</b>. Se oferta producto que cumple al 100% con la descripción del renglón."},
   "matriz": [
     ("<b>Spectacle OTG</b>, safety, <b>clear</b> &mdash; to fit over prescription glasses",
      "Sobrelente <b>OTG (over-the-glass)</b> con montura sobredimensionada diseñada para usarse "
@@ -338,9 +338,7 @@ RENGLONES = [
     ("<b>Use instruction shall be included with product</b>",
      "Cada unidad se entrega con el instructivo de uso del fabricante.", EV_DECL),
   ],
-  "nota": "Caracteristica adicional del producto ofertado: <b>construcción dieléctrica</b>, sin "
-          "piezas metálicas, apta para trabajos con riesgo eléctrico. Patillas con inserto TPR "
-          "antideslizante.",
+  "nota": "Al no indicar la descripción vigente de este renglón un producto de referencia ACP, no resulta aplicable la excepción del numeral 9.1.1 ni la del numeral 9.2: el proponente adjunta literatura descriptiva del fabricante y entrega muestra física del artículo ofertado. <br/><br/>Característica adicional del producto ofertado: <b>construcción dieléctrica</b>, sin piezas metálicas, apta para trabajos con riesgo eléctrico. Patillas con inserto TPR antideslizante.",
  },
  {
   "n": "4", "item": "PPE-EYE-00029",

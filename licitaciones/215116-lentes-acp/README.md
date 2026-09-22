@@ -4,6 +4,7 @@ Cierre: **25-sep-2026, 11:00 a.m.** · Adjudicación por **precio más bajo por 
 
 | Archivo | Qué es |
 |---|---|
+| `PRODUCTOS-QUE-APLICAN.md` | Qué producto de MCR, Portwest y Elite Guard entra en cada renglón, con P/N y lo que falta verificar. |
 | `ANALISIS.md` | El pliego leído: los 5 renglones, qué producto MCR/Portwest aplica a cada uno y los puntos críticos de la propuesta. **Empezar por aquí.** |
 | `CHECKLIST-SLI.md` | Paso a paso para dejar la propuesta cargada en el SLI sin que la tumben. |
 | `CONSULTA-ACP.md` | Borrador de la consulta escrita a la agente de compras. Enviar cuanto antes. |

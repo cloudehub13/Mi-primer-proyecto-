@@ -2,6 +2,15 @@
 
 **Autoridad del Canal de Panamá · Licitación pública en base al precio más bajo**
 
+> ⚠️ **ENMIENDA (detectada el 22-sep-2026).** La versión vigente del **renglón 3**
+> (PPE-EYE-00028) **ya no indica producto de referencia ACP** — está marcada
+> "/DESCRIPTION REVISED BY CHSH IN SEPTEMBER 2026/". La versión que analizó este documento
+> (marzo 2024) citaba North T11005 y Uvex S2500. **En el renglón 3 no hay ruta de exención:
+> literatura del fabricante y muestra física son obligatorias.**
+>
+> La lista completa de productos que aplican por renglón está en
+> [`PRODUCTOS-QUE-APLICAN.md`](PRODUCTOS-QUE-APLICAN.md).
+
 | Dato | Valor |
 |---|---|
 | Número de licitación | **215116** |
@@ -30,7 +39,7 @@
 |---|---|---|---:|---|
 | 1 | PPE-EYE-00026 | Lente de seguridad **claro** | **15,840** | SureWerx/Jackson SG Classic **50001** |
 | 2 | PPE-EYE-00027 | Lente de seguridad **oscuro** | **10,800** | SureWerx/Jackson SG Classic **50007** |
-| 3 | PPE-EYE-00028 | **Sobrelente OTG claro** (sobre lentes graduados) | **5,200** | North **T11005**, Uvex **S2500** |
+| 3 | PPE-EYE-00028 | **Sobrelente OTG claro** (sobre lentes graduados) | **5,200** | **ninguno** (revisión sep-2026 eliminó las referencias) |
 | 4 | PPE-EYE-00029 | **Sobrelente OTG gris oscuro / humo** | **7,200** | North **T11005S**, Radians Chief **360-S** |
 | 5 | PPE-EYE-00015 | **Goggle de copa para soldadura**, lente 50 mm tono 5 | **60** | Sellstrom **85150** |
 | | | **TOTAL UNIDADES** | **39,100** | |
