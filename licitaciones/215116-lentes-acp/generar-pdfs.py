@@ -140,7 +140,7 @@ def tabla_producto(d):
 
 def matriz(filas):
     head = [Paragraph("Requisito del pliego (renglón)", ST["cellh"]),
-            Paragraph("Caracteristica del producto ofertado", ST["cellh"]),
+            Paragraph("Característica del producto ofertado", ST["cellh"]),
             Paragraph("Evidencia", ST["cellh"])]
     data = [head]
     for req, ofr, ev in filas:
@@ -221,43 +221,49 @@ EV_FICHA = "Anexo A &mdash; ficha técnica del fabricante, sección resaltada"
 EV_CERT  = "Anexo B &mdash; declaración de conformidad / certificado del fabricante"
 EV_DECL  = "Declaración del proponente (este documento)"
 
+EVF = "Anexo A &mdash; ficha técnica MCR Safety MP110AF (serie Memphis MP1), sección resaltada"
+EVT = "Anexo A &mdash; ficha MP1, tabla &quot;Tintes Disponibles&quot;, fila del P/N ofertado"
+EVC = "Anexo A &mdash; ficha MP1, sección &quot;Certificaciones&quot;"
+EVD = "Declaración del proponente (este documento)"
+
 RENGLONES = [
  {
   "n": "1", "item": "PPE-EYE-00026",
   "título": "PROPUESTA TÉCNICA &mdash; Lente de seguridad, claro",
   "archivo": "01-RENGLON-1-PPE-EYE-00026.pdf",
-  "prod": {"marca": "MCR Safety", "modelo": "BearKat&reg; BK1",
-           "pn": "BK110AF", "cant": "15,840", "um": "Pr (par/unidad)",
+  "prod": {"marca": "MCR Safety", "modelo": "Memphis&reg; serie MP1",
+           "pn": "MP110AF", "cant": "15,840", "um": "Pr (par/unidad)",
            "ref_acp": "SureWerx / Jackson SG Classic P/N 50001 &mdash; no se oferta el producto de referencia; se oferta producto equivalente que cumple al 100%"},
   "matriz": [
     ("Spectacle, safety, <b>clear</b>",
-     "Lente de seguridad tipo spectacle con ocular <b>claro (transparente)</b> y patillas claras.", EV_FICHA),
+     "Lente de seguridad tipo spectacle con ocular <b>claro</b> (VLT 90%), montura y patillas negras, "
+     "patilla tipo bayoneta de TPR y puente nasal de TPR.", EVF),
     ("<b>Polycarbonate lens</b>",
-     "Ocular de <b>policarbonato</b> de una sola pieza, sin marco (frameless), envolvente.", EV_FICHA),
+     "Ocular de <b>policarbonato</b>; montura de policarbonato. Diseño <b>envolvente de lente única</b>.", EVF),
     ("Shall comply with <b>ANSI Z87.1 high impact</b> or EN 166:2001 mechanical strength &quot;F&quot;",
-     "Cumple <b>ANSI/ISEA Z87.1</b> con marcado <b>Z87+</b> (alto impacto). Cumple además CAN/CSA Z94.3.", EV_CERT),
+     "Certificado <b>ANSI Z87+ 1 2020 &mdash; Estándares de Alto Impacto</b>, según consta en la ficha "
+     "técnica del fabricante.", EVC),
     ("<b>Scratch resistant</b>",
-     "Recubrimiento antirrayado <b>Duramass&reg;</b> aplicado en fábrica sobre ambas caras del ocular.", EV_FICHA),
+     "<b>Resistencia a rayaduras</b> declarada por el fabricante para el P/N MP110AF.", EVT),
     ("<b>Antifog coating</b>",
-     "Recubrimiento antiempañante <b>UV-AF&reg;</b> de MCR Safety, curado por UV, con desempeño "
-     "antiempañante <b>3 veces superior</b> al de un recubrimiento estándar.", EV_FICHA),
+     "Recubrimiento antiempañante <b>UV-AF&trade; Eco-Amigable Anti Empaño</b>, aplicado en fábrica.", EVT),
     ("Provides <b>99% UV protection</b>",
-     "El ocular de policarbonato <b>filtra el 99.9% de la radiación ultravioleta</b>, por encima "
-     "del 99% requerido.", EV_FICHA),
+     "Ficha del fabricante: <b>rayos ultravioleta 0&ndash;385 nm: 99%</b>. El ocular de policarbonato "
+     "bloquea el <b>99.9% de los rayos UVA, UVB y UVC</b>.", EVF),
     ("<b>With sideshields</b> to protect from airborne particles",
-     "Diseño envolvente de ocular único con <b>protección lateral integral</b> (integral side "
-     "shields) moldeada en continuidad con el ocular: no hay abertura entre el ocular y la zona "
-     "temporal, lo que bloquea el ingreso lateral de partículas en suspensión.", EV_FICHA),
+     "Diseño <b>envolvente de lente única</b>: el ocular se extiende de forma continua hacia la zona "
+     "temporal y entrega cobertura lateral sin abertura entre el ocular y la sien, lo que bloquea el "
+     "ingreso lateral de partículas en suspensión.", EVF),
     ("Shall provide <b>non-distorsion vision</b>",
-     "Ocular panorámico de una sola pieza sin uniones ni marco frontal; campo visual continuo y "
-     "libre de distorsión óptica, conforme a los requisitos ópticos de ANSI/ISEA Z87.1.", EV_CERT),
-    ("Manufacturer's descriptive literature and <b>product sample required with bid</b>",
-     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra "
-     "física</b> del artículo ofertado, rotulada con el nombre del proponente, el número de "
-     "pliego 215116 y el número de propuesta, en Balboa, Ancón, Edificio 710, planta baja, "
-     "antes de la fecha y hora de cierre.", EV_DECL),
+     "Lente única envolvente, sin uniones ni marco frontal, que ofrece <b>vista sin obstrucciones</b> "
+     "y libre de distorsión óptica.", EVF),
+    ("Manufacturer&#39;s descriptive literature and <b>product sample required with bid</b>",
+     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra física</b> "
+     "del artículo ofertado, rotulada con el nombre del proponente, el número de pliego 215116 y el "
+     "número de propuesta, en Balboa, Ancón, Edificio 710, planta baja, antes de la fecha y hora de cierre.", EVD),
     ("<b>Use instructions shall be included with product</b>",
-     "Cada unidad se entrega con el instructivo de uso del fabricante.", EV_DECL),
+     "Cada unidad se entrega con el instructivo de uso del fabricante. El producto incluye además "
+     "cordón portalentes modelo 219.", EVD),
   ],
   "nota": None,
  },
@@ -265,143 +271,45 @@ RENGLONES = [
   "n": "2", "item": "PPE-EYE-00027",
   "título": "PROPUESTA TÉCNICA &mdash; Lente de seguridad, oscuro",
   "archivo": "02-RENGLON-2-PPE-EYE-00027.pdf",
-  "prod": {"marca": "MCR Safety", "modelo": "BearKat&reg; BK1",
-           "pn": "BK112AF", "cant": "10,800", "um": "Pr (par/unidad)",
+  "prod": {"marca": "MCR Safety", "modelo": "Memphis&reg; serie MP1",
+           "pn": "MP112PF", "cant": "10,800", "um": "Pr (par/unidad)",
            "ref_acp": "SureWerx / Jackson SG Classic P/N 50007 &mdash; no se oferta el producto de referencia; se oferta producto equivalente que cumple al 100%"},
   "matriz": [
     ("Spectacle, safety, <b>dark</b>",
-     "Lente de seguridad tipo spectacle con ocular <b>gris / humo (oscuro)</b>, para trabajo "
-     "en exteriores y bajo sol.", EV_FICHA),
+     "Lente de seguridad tipo spectacle con ocular <b>gris (oscuro)</b>, VLT 13%, montura y patillas "
+     "negras. Misma plataforma Memphis MP1 del P/N MP110AF.", EVT),
     ("<b>Polycarbonate lens</b>",
-     "Ocular de <b>policarbonato</b> de una sola pieza, sin marco (frameless), envolvente.", EV_FICHA),
+     "Ocular de <b>policarbonato</b>, diseño <b>envolvente de lente única</b> (serie Memphis MP1).", EVF),
     ("Shall comply with <b>ANSI Z87.1 high impact</b> or EN 166:2001 mechanical strength &quot;F&quot;",
-     "Cumple <b>ANSI/ISEA Z87.1</b> con marcado <b>Z87+</b> (alto impacto). Cumple además CAN/CSA Z94.3.", EV_CERT),
+     "La serie Memphis MP1 está certificada <b>ANSI Z87+ 1 2020 &mdash; Estándares de Alto Impacto</b>.", EVC),
     ("<b>Scratch resistant</b>",
-     "Recubrimiento antirrayado <b>Duramass&reg;</b> aplicado en fábrica sobre ambas caras del ocular.", EV_FICHA),
+     "<b>Resistencia a rayaduras</b> declarada por el fabricante para los P/N de la serie MP1.", EVT),
     ("<b>Antifog coating</b>",
-     "Recubrimiento antiempañante <b>UV-AF&reg;</b> de MCR Safety, con desempeño antiempañante "
-     "<b>3 veces superior</b> al de un recubrimiento estándar.", EV_FICHA),
+     "Recubrimiento antiempañante <b>MAX6&trade; Anti-Fog</b>, el de mayor desempeño antiempañante de "
+     "MCR Safety, aplicado en fábrica.", EVT),
     ("Provides <b>99% UV protection</b>",
-     "El ocular <b>filtra el 99.9% de la radiación ultravioleta</b>, por encima del 99% requerido.", EV_FICHA),
+     "Ocular de policarbonato de la serie MP1: <b>99% de filtrado en 0&ndash;385 nm</b> y bloqueo del "
+     "<b>99.9% de los rayos UVA, UVB y UVC</b>.", EVF),
     ("<b>With sideshields</b> to protect from airborne particles",
-     "Diseño envolvente de ocular único con <b>protección lateral integral</b> moldeada en "
-     "continuidad con el ocular, sin abertura entre el ocular y la zona temporal.", EV_FICHA),
+     "Diseño <b>envolvente de lente única</b> con cobertura lateral continua, sin abertura entre el "
+     "ocular y la sien.", EVF),
     ("Shall provide <b>non-distorsion vision</b>",
-     "Ocular panorámico de una sola pieza sin uniones ni marco frontal; campo visual continuo y "
-     "libre de distorsión óptica.", EV_CERT),
-    ("Manufacturer's descriptive literature and <b>product sample required with bid</b>",
-     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra "
-     "física</b> del artículo ofertado, debidamente rotulada, antes de la fecha y hora de cierre.", EV_DECL),
+     "Lente única envolvente, sin uniones ni marco frontal, con vista sin obstrucciones y libre de "
+     "distorsión óptica.", EVF),
+    ("Manufacturer&#39;s descriptive literature and <b>product sample required with bid</b>",
+     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra física</b> "
+     "del artículo ofertado, debidamente rotulada, antes de la fecha y hora de cierre.", EVD),
     ("<b>Use instructions shall be included with product</b>",
-     "Cada unidad se entrega con el instructivo de uso del fabricante.", EV_DECL),
+     "Cada unidad se entrega con el instructivo de uso del fabricante. Incluye cordón portalentes "
+     "modelo 219.", EVD),
   ],
-  "nota": "El renglón requiere ocular <b>oscuro (dark)</b>. El ocular ofertado es gris / humo de "
-          "tinte sólido, no espejado. El producto de referencia citado por la Autoridad "
-          "(Jackson 50007) corresponde a un ocular humo espejado; la descripción del renglón no "
-          "exige acabado espejado, por lo que el ocular gris sólido ofertado cumple el requisito "
-          "de oscurecimiento con la ventaja de no generar reflejo hacia terceros.",
- },
- {
-  "n": "3", "item": "PPE-EYE-00028",
-  "título": "PROPUESTA TÉCNICA &mdash; Sobrelente de protección OTG, claro",
-  "archivo": "03-RENGLON-3-PPE-EYE-00028.pdf",
-  "prod": {"marca": "MCR Safety", "modelo": "Law&reg; OTG (serie OG1)",
-           "pn": "OG110AF", "cant": "5,200", "um": "Pr (par/unidad)",
-           "ref_acp": "La descripción vigente del renglón (revisada por CHSH en septiembre de 2026) <b>no indica producto de referencia ACP</b>. Se oferta producto que cumple al 100% con la descripción del renglón."},
-  "matriz": [
-    ("<b>Spectacle OTG</b>, safety, <b>clear</b> &mdash; to fit over prescription glasses",
-     "Sobrelente <b>OTG (over-the-glass)</b> con montura sobredimensionada diseñada para usarse "
-     "<b>sobre lentes graduados</b>, cubriendo la mayoría de los armazones de prescripción. "
-     "Ocular <b>claro</b>.", EV_FICHA),
-    ("<b>One-piece lens, 100% polycarbonate</b>",
-     "Ocular envolvente de <b>una sola pieza</b>, fabricado en <b>100% policarbonato</b>.", EV_FICHA),
-    ("<b>Impact and scratch-resistant</b>",
-     "Resistente a impacto con marcado <b>Z87+</b> (alto impacto) y recubrimiento <b>antirrayado</b> "
-     "de fábrica.", EV_CERT),
-    ("<b>Antifog</b>",
-     "Recubrimiento <b>antiempañante</b> de fábrica (sufijo AF del número de parte).", EV_FICHA),
-    ("Provides <b>99% UV protection</b>",
-     "El ocular de policarbonato <b>filtra el 99.9% de la radiación ultravioleta</b>.", EV_FICHA),
-    ("<b>NON-VENTED sideshields</b> to protect from airborne particles",
-     "<b>«CONFIRMAR POR ESCRITO CON EL FABRICANTE ANTES DE OFERTAR»</b> &mdash; "
-     "protección lateral <b>sólida, sin ranuras ni rejillas de ventilación</b>, integrada a la "
-     "montura envolvente, que impide el ingreso lateral de partículas en suspensión.", EV_CERT),
-    ("Shall provide <b>wide unrestricted non-distorsion vision</b>",
-     "Ocular envolvente sobredimensionado de una sola pieza que entrega <b>visión periférica "
-     "amplia y sin obstrucción</b>, libre de distorsión óptica.", EV_CERT),
-    ("Certified <b>ANSI Z87.1-2003 or latter</b>, or EN 166:2001 mechanical strength &quot;F&quot;",
-     "Certificado <b>ANSI/ISEA Z87.1</b> en su edición vigente, posterior a la edición 2003, "
-     "con marcado Z87+.", EV_CERT),
-    ("Manufacturer's descriptive literature and <b>product sample required with bid</b>",
-     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra "
-     "física</b> del artículo ofertado, debidamente rotulada, antes de la fecha y hora de cierre.", EV_DECL),
-    ("<b>Use instruction shall be included with product</b>",
-     "Cada unidad se entrega con el instructivo de uso del fabricante.", EV_DECL),
-  ],
-  "nota": "Al no indicar la descripción vigente de este renglón un producto de referencia ACP, no resulta aplicable la excepción del numeral 9.1.1 ni la del numeral 9.2: el proponente adjunta literatura descriptiva del fabricante y entrega muestra física del artículo ofertado. <br/><br/>Característica adicional del producto ofertado: <b>construcción dieléctrica</b>, sin piezas metálicas, apta para trabajos con riesgo eléctrico. Patillas con inserto TPR antideslizante.",
- },
- {
-  "n": "4", "item": "PPE-EYE-00029",
-  "título": "PROPUESTA TÉCNICA &mdash; Sobrelente de protección OTG, gris oscuro / humo",
-  "archivo": "04-RENGLON-4-PPE-EYE-00029.pdf",
-  "prod": {"marca": "MCR Safety", "modelo": "Law&reg; OTG (serie OG1)",
-           "pn": "OG112AF", "cant": "7,200", "um": "Pr (par/unidad)",
-           "ref_acp": "North T11005S / Radians Chief P/N 360-S &mdash; no se oferta el producto de referencia; se oferta producto equivalente que cumple al 100%"},
-  "matriz": [
-    ("<b>Spectacle OTG</b>, safety, <b>dark grey / smoke</b> &mdash; to fit over prescription glasses",
-     "Sobrelente <b>OTG (over-the-glass)</b> con montura sobredimensionada para usarse <b>sobre "
-     "lentes graduados</b>. Ocular <b>gris oscuro / humo</b>.", EV_FICHA),
-    ("<b>One-piece lens, 100% polycarbonate</b>",
-     "Ocular envolvente de <b>una sola pieza</b>, fabricado en <b>100% policarbonato</b>.", EV_FICHA),
-    ("<b>Impact and scratch-resistant</b>",
-     "Resistente a impacto con marcado <b>Z87+</b> y recubrimiento <b>antirrayado</b> de fábrica.", EV_CERT),
-    ("<b>Antifog</b>",
-     "Recubrimiento <b>antiempañante</b> de fábrica (sufijo AF del número de parte).", EV_FICHA),
-    ("Provides <b>99% UV protection</b>",
-     "El ocular de policarbonato <b>filtra el 99.9% de la radiación ultravioleta</b>.", EV_FICHA),
-    ("<b>NON-VENTED sideshields</b> to protect from airborne particles",
-     "<b>«CONFIRMAR POR ESCRITO CON EL FABRICANTE ANTES DE OFERTAR»</b> &mdash; "
-     "protección lateral <b>sólida, sin ranuras ni rejillas de ventilación</b>, integrada a la "
-     "montura envolvente.", EV_CERT),
-    ("Shall provide <b>wide unrestricted non-distorsion vision</b>",
-     "Ocular envolvente sobredimensionado de una sola pieza que entrega <b>visión periférica "
-     "amplia y sin obstrucción</b>, libre de distorsión óptica.", EV_CERT),
-    ("Certified <b>ANSI Z87.1-2003 or latter</b>, or EN 166:2001 mechanical strength &quot;F&quot;",
-     "Certificado <b>ANSI/ISEA Z87.1</b> en su edición vigente, posterior a la edición 2003, "
-     "con marcado Z87+.", EV_CERT),
-    ("Manufacturer's descriptive literature and <b>product sample required with bid</b>",
-     "Se adjunta la literatura descriptiva del fabricante (Anexo A) y se entrega <b>muestra "
-     "física</b> del artículo ofertado, debidamente rotulada, antes de la fecha y hora de cierre.", EV_DECL),
-    ("<b>Use instruction shall be included with product</b>",
-     "Cada unidad se entrega con el instructivo de uso del fabricante.", EV_DECL),
-  ],
-  "nota": "Caracteristica adicional del producto ofertado: <b>construcción dieléctrica</b>, sin "
-          "piezas metálicas. Patillas con inserto TPR antideslizante.",
- },
- {
-  "n": "5", "item": "PPE-EYE-00015",
-  "título": "PROPUESTA TÉCNICA &mdash; Goggle de soldadura tipo copa, lente 50 mm tono 5",
-  "archivo": "05-RENGLON-5-PPE-EYE-00015.pdf",
-  "prod": {"marca": "MCR Safety", "modelo": "Serie 28 &mdash; goggle de soldadura",
-           "pn": "28550", "cant": "60", "um": "Pr (par/unidad)",
-           "ref_acp": "Sellstrom P/N 85150 &mdash; no se oferta el producto de referencia; se oferta producto equivalente que cumple al 100%"},
-  "matriz": [
-    ("<b>Lens, filter, welders, 50 mm diameter, shade 5</b>",
-     "Goggle equipado con <b>dos oculares redondos fijos de 50 mm de diámetro</b> con "
-     "<b>filtro IR tono 5.0</b>, para soldadura autógena, oxicorte y brasado.", EV_FICHA),
-    ("<b>Polycarbonate</b>",
-     "Oculares de <b>policarbonato</b> con recubrimiento antirrayado.", EV_FICHA),
-    ("<b>Eye cup type goggle</b>",
-     "Goggle <b>tipo copa (eye cup)</b> de dos copas independientes, montura verde, con "
-     "ventilación que reduce el empañamiento y banda elástica ajustable.", EV_FICHA),
-    ("Shall comply with <b>ANSI Z87.1</b>",
-     "Cumple <b>ANSI/ISEA Z87.1</b> para protección ocular contra radiación óptica de soldadura.", EV_CERT),
-  ],
-  "nota": "<b>Alcance del renglón:</b> la descripción del renglón titula el artículo como "
-          "&quot;LENS, FILTER CUP TYPE&quot; y a la vez lo describe como &quot;polycarbonate eye "
-          "cup type goggle&quot;, citando como referencia el Sellstrom 85150, que corresponde al "
-          "<b>goggle completo</b>. La presente propuesta cotiza el <b>goggle de soldadura "
-          "completo</b> de copa, con los oculares de 50 mm tono 5 instalados.",
+  "nota": "El renglón requiere ocular <b>oscuro (dark)</b>. El ocular ofertado es gris de tinte sólido "
+          "(VLT 13%), no espejado. El producto de referencia citado por la Autoridad (Jackson 50007) "
+          "corresponde a un ocular humo espejado; la descripción del renglón no exige acabado espejado, "
+          "por lo que el ocular gris sólido ofertado cumple el requisito de oscurecimiento con la "
+          "ventaja de no generar reflejo hacia terceros.<br/><br/>"
+          "El MP110AF y el MP112PF son el mismo modelo de la serie Memphis MP1 en dos tintes, por lo "
+          "que la literatura del fabricante de la serie sustenta ambos renglones.",
  },
 ]
 
@@ -455,7 +363,7 @@ def carta():
 
     f.append(Paragraph("3. Declaración sobre productos de referencia (numeral 9.1.1)", ST["h2"]))
     f.append(Paragraph(
-        "«MARCAR LA OPCION QUE CORRESPONDA POR RENGLÓN»<br/><br/>"
+        "«MARCAR LA OPCIÓN QUE CORRESPONDA POR RENGLÓN»<br/><br/>"
         "[ ] El proponente <b>SI</b> oferta la marca y modelo de referencia especificados por la "
         "Autoridad en el(los) renglón(es): ____________. Conforme al numeral 9.1.1 del pliego, "
         "se deja constancia expresa de este hecho en la propuesta técnica presentada por el SLI, "
@@ -495,7 +403,7 @@ def carta():
 def doc_renglon(r):
     path = os.path.join(OUT, r["archivo"])
     f = encabezado(r["título"], r["n"], r["item"])
-    f.append(Paragraph("1. Articulo ofertado", ST["h2"]))
+    f.append(Paragraph("1. Artículo ofertado", ST["h2"]))
     f.append(tabla_producto(r["prod"]))
     f.append(Paragraph("2. Matriz de cumplimiento técnico", ST["h2"]))
     f.append(Paragraph(
