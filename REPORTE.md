@@ -7,12 +7,12 @@
 | Protección para las manos | 40 | 21 | 4 | 19 | 4 | 2 | 8 |
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
 | Ignífugos y arco eléctrico | 12 | 2 | 3 | 10 | 1 |  | 1 |
-| Protección anticaídas (trabajo en altura) | 10 |  |  | 10 | 1 | 3 |  |
-| Ropa de protección química y desechable | 10 | 2 | 3 | 8 | 1 | 1 | 7 |
+| Protección anticaídas (trabajo en altura) | 10 |  |  | 10 | 2 | 3 |  |
+| Ropa de protección química y desechable | 10 | 2 | 3 | 8 | 2 | 1 | 7 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
 | Primeros auxilios y control de derrames | 7 |  | 2 | 7 | 1 | 1 |  |
 | Protección auditiva | 8 | 2 | 1 | 5 |  |  |  |
-| Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 |  | 1 | 1 |
+| Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 | 1 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
@@ -22,7 +22,7 @@
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
-| **TOTAL** | **184** | **79** | **20** | **104** | **18** | **14** | **60** |
+| **TOTAL** | **184** | **79** | **20** | **104** | **23** | **14** | **60** |
 
 ## Sin foto — 20
 
@@ -229,7 +229,7 @@
 
 - `S887` — Pantalón cargo multibolsillos
 
-## Referencia por confirmar — 18
+## Referencia por confirmar — 23
 
 
 **Protección para las manos**
@@ -241,6 +241,7 @@
 
 **Ropa de protección química y desechable**
 
+- `Overol` — Peto y chaqueta química reutilizable
 - `por` — Traje de respuesta a materiales peligrosos
 
 **Ignífugos y arco eléctrico**
@@ -250,6 +251,7 @@
 **Protección anticaídas (trabajo en altura)**
 
 - `por` — Eslinga de posicionamiento regulable
+- `cinta` — Cinta de anclaje + mosquetón
 
 **Protección para los pies**
 
@@ -268,6 +270,12 @@
 **Primeros auxilios y control de derrames**
 
 - `por` — Kit de quemaduras
+
+**Ergonomía: rodilleras y coderas**
+
+- `ALTA` — Rodillera profesional con cap de goma
+- `ALTA` — Rodillera de alto impacto con D3O®
+- `ALTA` — Codera de protección
 
 **Confort térmico y estrés por calor**
 
