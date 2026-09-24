@@ -186,7 +186,7 @@ def declaraciones_estandar():
     items = [
         "El bien ofertado es <b>nuevo</b>, sin uso y sin reconstruir (numeral 2.3 del pliego).",
         "Se otorga <b>garantía por un período no menor de un (1) año</b> contado desde la fecha "
-        "de recepcion del objeto del contrato (numeral 5).",
+        "de recepción del objeto del contrato (numeral 5).",
         "Plazo de entrega: <b>90 días calendario</b> o menos, contados a partir de la "
         "adjudicación de la orden de compra (numeral 3.1).",
         "Condiciones de entrega: <b>DAP Panamá</b>. El proponente asume el trámite y el costo "
