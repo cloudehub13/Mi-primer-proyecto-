@@ -1,0 +1,235 @@
+<title>Checklist Licitación 215116</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#f3f4f2; --surface:#ffffff; --ink:#1d2320; --muted:#5d6661; --line:#dcdfdb;
+  --accent:#e0a800; --accent-ink:#5a4400; --accent-soft:#fff4cc;
+  --ok:#2f7d4f; --ok-soft:#e3f2e8; --warn:#b3261e; --warn-soft:#fbe7e5; --info-soft:#eef0ec;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#141816; --surface:#1d2320; --ink:#e8ebe7; --muted:#9aa39e; --line:#2f3733;
+    --accent:#f2c230; --accent-ink:#f2c230; --accent-soft:#3a3212;
+    --ok:#6cc190; --ok-soft:#1d3527; --warn:#f08a82; --warn-soft:#3d1f1d; --info-soft:#252c28;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#141816; --surface:#1d2320; --ink:#e8ebe7; --muted:#9aa39e; --line:#2f3733;
+  --accent:#f2c230; --accent-ink:#f2c230; --accent-soft:#3a3212;
+  --ok:#6cc190; --ok-soft:#1d3527; --warn:#f08a82; --warn-soft:#3d1f1d; --info-soft:#252c28;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:24px 64px}
+.wrap{max-width:860px;margin:0 auto;display:grid;gap:20px}
+header{display:grid;gap:14px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{margin:0;font-size:28px;line-height:1.2;text-wrap:balance}
+.sub{margin:0;color:var(--muted);max-width:65ch}
+.dates{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.date{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:2px}
+.date b{font-size:15px}
+.date span{color:var(--muted);font-size:13px}
+.date .left{font-family:var(--mono);font-size:13px;color:var(--accent-ink);font-variant-numeric:tabular-nums}
+.date.hot{border-color:var(--accent);background:var(--accent-soft)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
+.prog{display:flex;align-items:center;gap:12px}
+.track{flex:1;height:10px;background:var(--line);border-radius:99px;overflow:hidden}
+.fill{height:100%;background:var(--ok);width:0;transition:width .25s}
+.count{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;color:var(--ink);font:500 13px var(--sans);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);font:500 13px var(--sans);padding:7px 12px;border-radius:8px;cursor:pointer}
+.btn.danger{color:var(--warn);border-color:var(--warn)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.confirm{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--warn)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+section>h2{margin:0;font-size:16px;padding:14px 16px;display:flex;justify-content:space-between;gap:12px;align-items:baseline;border-bottom:1px solid var(--line)}
+section>h2 small{font-family:var(--mono);font-weight:500;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.lead{margin:0;padding:10px 16px;font-size:13px;color:var(--muted);background:var(--info-soft);border-bottom:1px solid var(--line)}
+ul{list-style:none;margin:0;padding:0}
+li{border-bottom:1px solid var(--line)}
+li:last-child{border-bottom:0}
+label.item{display:grid;grid-template-columns:24px 1fr;gap:12px;padding:12px 16px;cursor:pointer;align-items:start}
+label.item:hover{background:var(--info-soft)}
+input[type=checkbox]{width:20px;height:20px;margin:2px 0 0;accent-color:var(--ok);cursor:pointer}
+.txt{display:grid;gap:4px}
+.txt strong{font-weight:500}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12.5px;color:var(--muted)}
+.ref{font-family:var(--mono);font-size:11.5px;padding:1px 6px;border:1px solid var(--line);border-radius:4px;color:var(--muted)}
+.tag{font-size:11.5px;font-weight:600;padding:1px 7px;border-radius:99px}
+.tag.crit{background:var(--warn-soft);color:var(--warn)}
+.tag.ready{background:var(--ok-soft);color:var(--ok)}
+.tag.mcr{background:var(--accent-soft);color:var(--accent-ink)}
+li.done .txt strong{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--muted)}
+li.done{background:color-mix(in srgb,var(--ok-soft) 45%,transparent)}
+.empty{padding:14px 16px;color:var(--muted);font-size:13px}
+footer{font-size:12.5px;color:var(--muted);max-width:65ch}
+@media (prefers-reduced-motion:reduce){.fill{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">ACP · Licitación No. 215116 · Lentes de protección personal</div>
+    <h1>Checklist para los renglones 1 y 2</h1>
+    <p class="sub">Proponente: ELITE GUARD, S.A. (RUC 155742060-2-2023, D.V. 50). Marca lo que ya tienes. Renglón 1: MCR Safety MP110PF (claro). Renglón 2: MCR Safety MP112AF (oscuro). Adjudicación por precio más bajo por renglón; muestra obligatoria en ambos.</p>
+    <div class="dates">
+      <div class="date hot"><b>Entrega de muestras</b><span>8-oct-2026 antes de 3:15 p.m. · Balboa, Ancón, Edif. 710</span><span class="left" id="left-samples"></span></div>
+      <div class="date"><b>Cierre de propuestas (SLI)</b><span>9-oct-2026, 9:00 a.m. (Enmienda 1)</span><span class="left" id="left-close"></span></div>
+      <div class="date"><b>Contacto ACP</b><span>Joseline I. Hernández N. · 272-7028</span><span>JHernandez@pancanal.com</span></div>
+    </div>
+  </header>
+
+  <div class="bar">
+    <div class="prog">
+      <div class="track" role="progressbar" aria-label="Avance" id="track"><div class="fill" id="fill"></div></div>
+      <div class="count" id="count">0 / 0</div>
+    </div>
+    <div class="tools">
+      <div class="seg" role="group" aria-label="Filtro">
+        <button type="button" id="f-all" aria-pressed="true" data-f="all">Todo</button>
+        <button type="button" id="f-todo" aria-pressed="false" data-f="todo">Pendiente</button>
+        <button type="button" id="f-done" aria-pressed="false" data-f="done">Ya lo tengo</button>
+      </div>
+      <button type="button" class="btn danger" id="reset">Desmarcar todo</button>
+      <span class="confirm" id="confirm" hidden>¿Desmarcar todo?
+        <button type="button" class="btn danger" id="reset-yes">Sí, desmarcar</button>
+        <button type="button" class="btn" id="reset-no">Cancelar</button>
+      </span>
+    </div>
+  </div>
+
+  <main id="list" class="wrap" style="gap:16px"></main>
+
+  <footer>Las marcas se guardan en este navegador. Si abres la página en otro equipo, empiezan desmarcadas. Las etiquetas "Preparado" indican documentos que ya se armaron en la conversación; márcalos tú cuando los revises.</footer>
+</div>
+
+<script>
+const DATA = [
+  {id:"sli", title:"Propuesta en el SLI y condiciones generales", lead:"La falta de propuesta técnica o de los datos exigidos causa la no consideración en el acto de conocimiento de propuestas (1.6).", items:[
+    ["sli-nombre","Propuesta de precio a nombre de ELITE GUARD, S.A. · RUC 155742060-2-2023 · D.V. 50","Parte 1",["crit"]],
+    ["sli-nombre-tec","Propuesta técnica con el mismo nombre legal: ELITE GUARD, S.A. (PDFs ya corregidos)","Parte 1",["crit","ready"]],
+    ["sli-pdf","Todos los adjuntos en PDF, máximo 15 archivos de 15 MB cada uno","Parte 1",[]],
+    ["sli-marca","Propuesta técnica con marca, modelo y número de parte de cada renglón","1.6",["crit"]],
+    ["sli-pesos","Dimensiones, medidas y pesos por unidad de MP110PF y MP112AF","1.6",["mcr"]],
+    ["sli-pr","Precio cotizado por unidad de medida PR (par / unidad)","9.1.4",[]],
+    ["sli-validez","Validez de la oferta: 60 días calendario","1.3",[]],
+    ["sli-plazo","Plazo de entrega: 120 días calendario desde la adjudicación (Enmienda 1)","3.1",[]],
+    ["sli-dap","Precio incluye DAP Panamá: declaración de aduanas, descarga y colocación en Corozal Oeste, Edificio 652","3.2",[]],
+    ["sli-garantia","Garantía de al menos 1 año desde la recepción, declarada en la propuesta","5",[]],
+    ["sli-cantidad","Cantidades de los renglones 1 y 2 confirmadas con MCR (contrato de cantidad y precio fijo)","7",["mcr"]],
+    ["sli-numero","Propuesta registrada en el SLI y número de propuesta anotado (se necesita para las muestras)","9.2",[]]
+  ]},
+  {id:"r1", title:"Renglón 1 · MCR MP110PF · lente claro", lead:"Cada documento debe indicar el renglón (9.1.2) y tener resaltado cada requisito que cumple (9.1.3).", items:[
+    ["r1-pdf","PDF RENGLON_1_MP110PF_Documentacion.pdf con \"RENGLÓN 1\" y resaltados","9.1.2 · 9.1.3",["ready"]],
+    ["r1-claro","Lente claro: fila MP110PF en la ficha, VLT 90%","Descripción",["ready"]],
+    ["r1-pc","Lente de policarbonato","Descripción",["ready"]],
+    ["r1-z87","ANSI Z87.1 alto impacto (Z87+)","Descripción",["ready"]],
+    ["r1-rayas","Resistente a rayones: ✓ en la ficha MP110AF, fila MP110PF","Descripción",["ready"]],
+    ["r1-af","Antiempaño MAX6","Descripción",["ready"]],
+    ["r1-uv","99% UV (MCR: 99.9%)","Descripción",["ready"]],
+    ["r1-lateral","Protección lateral contra partículas confirmada por escrito por MCR","Descripción",["crit","mcr"]],
+    ["r1-dist","Visión sin distorsión confirmada por MCR (refuerza la conformidad Z87.1)","Descripción",["mcr"]],
+    ["r1-instr","Instrucciones de uso incluidas con el producto, confirmado por MCR","Descripción",["crit","mcr"]],
+    ["r1-ficha","Ficha propia del MP110PF (la actual es del MP110AF)","Recomendado",["mcr"]],
+    ["r1-web","Página web de MCR del MP110PF impresa a PDF desde el navegador, con URL y fecha","Recomendado",[]]
+  ]},
+  {id:"r2", title:"Renglón 2 · MCR MP112AF · lente oscuro", lead:"Mismo criterio que el renglón 1. El MP112AF tiene un pendiente más: la resistencia a rayones.", items:[
+    ["r2-pdf","PDF RENGLON_2_MP112AF_Documentacion.pdf con \"RENGLÓN 2\" y resaltados","9.1.2 · 9.1.3",["ready"]],
+    ["r2-oscuro","Lente oscuro: fila MP112AF en la ficha, Gray, VLT 13%","Descripción",["ready"]],
+    ["r2-pc","Lente de policarbonato","Descripción",["ready"]],
+    ["r2-z87","ANSI Z87.1 alto impacto (Z87+)","Descripción",["ready"]],
+    ["r2-af","Antiempaño UV-AF","Descripción",["ready"]],
+    ["r2-uv","99% UV (MCR: 99.9%)","Descripción",["ready"]],
+    ["r2-rayas","Resistente a rayones confirmado por MCR (ficha MP112AF o carta)","Descripción",["crit","mcr"]],
+    ["r2-lateral","Protección lateral contra partículas confirmada por escrito por MCR","Descripción",["crit","mcr"]],
+    ["r2-dist","Visión sin distorsión confirmada por MCR","Descripción",["mcr"]],
+    ["r2-instr","Instrucciones de uso incluidas con el producto, confirmado por MCR","Descripción",["crit","mcr"]],
+    ["r2-ficha","Ficha propia del MP112AF (la actual es del MP112PF)","Recomendado",["mcr"]],
+    ["r2-web","Página web de MCR del MP112AF impresa a PDF desde el navegador, con URL y fecha","Recomendado",[]]
+  ]},
+  {id:"mcr", title:"Documentos por pedir a MCR", lead:"Un solo correo a MCR cubre todo esto. Es el camino crítico: pídelo hoy.", items:[
+    ["mcr-muestras","Muestras pedidas: MP110PF y MP112AF, 2 de cada uno, con instructivo","9.2",["crit","mcr"]],
+    ["mcr-carta","Carta firmada en papel membretado (lateral, rayones MP112AF, sin distorsión, instructivo)","Descripción",["crit","mcr"]],
+    ["mcr-doc","Declaración de conformidad ANSI Z87.1 de ambos modelos","Refuerzo",["mcr"]],
+    ["mcr-pesos","Peso y dimensiones por unidad de ambos modelos","1.6",["mcr"]],
+    ["mcr-dist","Carta de distribuidor autorizado de MCR a nombre de la empresa","9.7",["mcr"]],
+    ["mcr-plazo","MCR confirma stock o capacidad para entregar en 120 días","3.1",["mcr"]],
+    ["mcr-empaque","MCR confirma empaque y embalaje según buenas prácticas (ASTM D5728)","9.8",["mcr"]]
+  ]},
+  {id:"mue", title:"Muestras", lead:"Sin muestra identificada, la propuesta no será considerada (9.2). Las muestras no están exoneradas de impuestos (9.3).", items:[
+    ["mue-recibidas","Muestras recibidas en Panamá (meta: 5 o 6 de octubre)","9.2",["crit"]],
+    ["mue-modelo","Cada muestra es el número de parte exacto ofertado (MP110PF y MP112AF)","9.2",["crit"]],
+    ["mue-z87","La lente o patilla trae grabado \"Z87+\"","Descripción",[]],
+    ["mue-instr","Cada muestra trae su instructivo de uso","Descripción",["crit"]],
+    ["mue-etiqueta","Etiquetas con ELITE GUARD, S.A., pliego 215116, número de propuesta y renglón","9.1 · 9.2",["crit"]],
+    ["mue-entrega","Entregadas en Balboa, Ancón, Edificio 710, planta baja, recepción, antes del 8-oct 3:15 p.m.","9.2",["crit"]],
+    ["mue-acuse","Acuse de recibo sellado guardado","Recomendado",[]]
+  ]},
+  {id:"fin", title:"Envío final", lead:"ACP no se hace responsable por fallas de transmisión. Sube todo con al menos un día de margen.", items:[
+    ["fin-tec","Propuesta técnica subida al SLI: 2 PDFs de renglón + carta de MCR resaltada","1.6 · 9.1",["crit"]],
+    ["fin-precio","Propuesta de precio subida al SLI por renglón","1.4.B.1",["crit"]],
+    ["fin-revision","Revisado: mismo número de parte en precio, PDFs, carta y muestras","9.1",[]],
+    ["fin-hora","Todo enviado antes del 9-oct 9:00 a.m. (meta: 8-oct)","Enmienda 1",["crit"]],
+    ["fin-retiro","Anotado: retirar muestras dentro de 10 días hábiles tras la adjudicación","9.4",[]]
+  ]}
+];
+const TAGS={crit:["crit","Obligatorio"],ready:["ready","Preparado"],mcr:["mcr","Depende de MCR"]};
+const KEY="acp215116-checklist-v1";
+let state={}; let filter="all";
+try{state=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){state={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+const list=document.getElementById("list");
+function render(){
+  list.innerHTML="";
+  let total=0,done=0;
+  DATA.forEach(sec=>{
+    const s=document.createElement("section");
+    const secDone=sec.items.filter(i=>state[i[0]]).length;
+    total+=sec.items.length; done+=secDone;
+    s.innerHTML=`<h2><span>${sec.title}</span><small>${secDone} / ${sec.items.length}</small></h2><p class="lead">${sec.lead}</p>`;
+    const ul=document.createElement("ul"); let shown=0;
+    sec.items.forEach(([id,text,ref,tags])=>{
+      const on=!!state[id];
+      if(filter==="todo"&&on) return; if(filter==="done"&&!on) return;
+      shown++;
+      const li=document.createElement("li"); if(on) li.className="done";
+      li.innerHTML=`<label class="item" for="cb-${id}"><input type="checkbox" id="cb-${id}" ${on?"checked":""}><span class="txt"><strong>${text}</strong><span class="meta"><span class="ref">${ref}</span>${tags.map(t=>`<span class="tag ${TAGS[t][0]}">${TAGS[t][1]}</span>`).join("")}</span></span></label>`;
+      li.querySelector("input").addEventListener("change",e=>{state[id]=e.target.checked; if(!e.target.checked) delete state[id]; save(); render();});
+      ul.appendChild(li);
+    });
+    if(!shown){const p=document.createElement("div");p.className="empty";p.textContent=filter==="todo"?"Todo listo en esta sección.":"Nada marcado todavía en esta sección.";s.appendChild(p)}
+    else s.appendChild(ul);
+    list.appendChild(s);
+  });
+  document.getElementById("count").textContent=`${done} / ${total} listos`;
+  document.getElementById("fill").style.width=(total?done/total*100:0)+"%";
+  document.getElementById("track").setAttribute("aria-valuenow",Math.round(total?done/total*100:0));
+}
+document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
+  filter=b.dataset.f; document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b)); render();
+}));
+const cf=document.getElementById("confirm");
+document.getElementById("reset").addEventListener("click",()=>{cf.hidden=false});
+document.getElementById("reset-no").addEventListener("click",()=>{cf.hidden=true});
+document.getElementById("reset-yes").addEventListener("click",()=>{state={};save();cf.hidden=true;render()});
+function left(el,target){
+  const ms=target-Date.now();
+  if(ms<=0){el.textContent="Plazo vencido";return}
+  const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5);
+  el.textContent=`Faltan ${d} d ${h} h`;
+}
+function tick(){
+  // Hora de Panamá: UTC-5 sin horario de verano
+  left(document.getElementById("left-samples"),Date.parse("2026-10-08T15:15:00-05:00"));
+  left(document.getElementById("left-close"),Date.parse("2026-10-09T09:00:00-05:00"));
+}
+tick(); setInterval(tick,60000);
+render();
+</script>
