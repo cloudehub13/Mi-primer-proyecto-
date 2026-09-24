@@ -23,28 +23,19 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Avance
 
-**139 productos · 22 completos**
+**184 productos · 79 completos** (referencia, foto, ficha y sector)
 
-| Rubro | Total | Completos | Falta ref | Falta foto | Falta ficha | Sin sector |
-|---|--:|--:|--:|--:|--:|--:|
-| Protección para las manos | 22 | 2 | 4 | 4 | 20 | 2 |
-| Protección para los pies | 12 | 0 | 6 | 1 | 12 |  |
-| Ignífugos y arco eléctrico | 11 | 0 | 1 | 3 | 11 |  |
-| Protección anticaídas (trabajo en altura) | 10 | 0 | 2 |  | 10 | 3 |
-| Ropa de protección química y desechable | 9 | 1 | 2 | 3 | 8 | 1 |
-| Protección facial y ocular | 7 | 0 |  |  | 7 | 1 |
-| Señalización y seguridad vial | 7 | 0 | 1 | 1 | 7 | 1 |
-| Primeros auxilios y control de derrames | 7 | 0 | 1 | 2 | 7 | 1 |
-| Protección para la cabeza | 5 | 0 |  |  | 5 |  |
-| Protección auditiva | 5 | 0 |  |  | 5 |  |
-| Protección respiratoria | 5 | 0 |  |  | 5 | 3 |
-| Ergonomía: rodilleras y coderas | 5 | 0 | 3 |  | 5 | 1 |
-| Confort térmico y estrés por calor | 5 | 0 | 2 | 5 | 5 |  |
-| Chalecos de alta visibilidad | 4 | 0 |  |  | 4 | 1 |
-| Camisetas y polos reflectivos | 8 | 6 |  |  | 2 |  |
-| Pantalones de trabajo | 7 | 5 |  |  | 2 |  |
-| Impermeables (capotes) | 7 | 5 |  |  | 2 |  |
-| Overoles (mamelucos) | 3 | 3 |  |  |  |  |
+El desglose por rubro y el listado de lo que falta están en **`REPORTE.md`**,
+que se regenera solo a partir de `docs/datos.js`. No copiar cifras a mano aquí:
+se desactualizan a la primera tanda de productos nuevos.
+
+Pendiente grueso, en orden de impacto:
+
+1. **104 sin ficha técnica descargable** — es la brecha más grande.
+2. **60 con varios colores y una sola foto** — falta la foto por color.
+3. **20 sin fotografía.**
+4. **18 con referencia mala** (quedó texto de extracción en vez de la referencia real).
+5. **14 sin sector asignado.**
 
 ## Referencias que hoy salen mal al cliente
 

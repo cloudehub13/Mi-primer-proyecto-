@@ -642,7 +642,7 @@ function openModal(p){
   modalP=p;
   const g=p.imgs||[];
   const kv=[["Marca",p.brandLabel],["Material",p.material],["Tallas",p.tallas],["Presentación",p.pres]]
-    .filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${esc(x[1])}</dd>`).join("");
+    .filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${mdi(x[1])}</dd>`).join("");
   const wa=`https://wa.me/${K.waNum}?text=${encodeURIComponent("Hola, me interesa: "+p.name+(p.ref?" (REF "+p.ref+")":"")+". ¿Precio y disponibilidad?")}`;
   const tecnica=`${kv?`<div class="sph">Especificaciones</div><dl class="kv">${kv}</dl>`:""}
       ${p.colores?`<div class="sph">Colores disponibles${(p.imgs&&p.imgs.length>1)?" · toca para ver la foto":""}</div><div class="cchips" id="m-cchips">${muestrasColor(p,0)}</div>`:""}
