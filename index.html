@@ -469,7 +469,7 @@ footer .meta{font-family:"IBM Plex Mono";font-size:10.5px;color:#7C7266;letter-s
 const P=B.products, RU=B.rubros, SEC=B.sectors, FEAT=B.featured, K=B.contact, BS=B.brandSites||{};
 const state={q:"",brand:"all",sec:"all"};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const VER="202609152209";  /* lo reescribe publicar.sh en cada publicacion */
+const VER="202609241424";  /* lo reescribe publicar.sh en cada publicacion */
 const v=u=>u?u+(u.includes("?")?"&":"?")+"v="+VER:u;
 const esc=s=>(s||"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const mdi=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");
