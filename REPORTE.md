@@ -1,16 +1,16 @@
 # Reporte del catálogo
 
-**184 productos · 94 completos** (referencia, foto, ficha y sector)
+**187 productos · 99 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 8 |
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
-| Ignífugos y arco eléctrico | 12 | 5 | 3 | 7 | 1 |  | 1 |
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 6 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
 | Protección anticaídas (trabajo en altura) | 10 | 4 |  | 6 | 2 | 3 | 3 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
+| Ignífugos y arco eléctrico | 15 | 10 | 3 | 5 | 1 |  | 1 |
 | Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 | 1 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **184** | **94** | **20** | **89** | **23** | **13** | **61** |
+| **TOTAL** | **187** | **99** | **20** | **87** | **23** | **13** | **61** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 89
+## Sin ficha técnica — 87
 
 
 **Pantalones de trabajo**
@@ -140,8 +140,6 @@
 **Ignífugos y arco eléctrico**
 
 - `BIZ2` — Chaqueta Bizweld BIZ2
-- `FR25` — Chaqueta Bizflame Plus FR25
-- `FR89` — Camisa Bizflame 88/12 FR89
 - `FR18` — Pasamontañas resistente a la llama y antiestático FR18
 - `por` — Mandil, polainas y accesorios de cuero para soldadura
 - `5012` — Guante estructural de bombero
