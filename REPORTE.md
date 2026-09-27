@@ -1,6 +1,6 @@
 # Reporte del catálogo
 
-**183 productos · 80 completos** (referencia, foto, ficha y sector)
+**183 productos · 81 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
@@ -8,7 +8,7 @@
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
 | Ignífugos y arco eléctrico | 12 | 2 | 3 | 10 | 1 |  | 1 |
 | Protección anticaídas (trabajo en altura) | 10 |  |  | 10 | 2 | 3 |  |
-| Ropa de protección química y desechable | 10 | 2 | 3 | 8 | 2 | 1 | 7 |
+| Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 6 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
 | Primeros auxilios y control de derrames | 7 |  | 2 | 7 | 1 | 1 |  |
 | Protección auditiva | 8 | 2 | 1 | 5 |  |  |  |
@@ -22,7 +22,8 @@
 | Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
-| **TOTAL** | **183** | **80** | **20** | **102** | **23** | **14** | **59** |
+| Uniformes corporativos | 1 | 1 |  |  |  |  |  |
+| **TOTAL** | **183** | **81** | **20** | **101** | **23** | **14** | **58** |
 
 ## Sin foto — 20
 
@@ -71,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 102
+## Sin ficha técnica — 101
 
 
 **Pantalones de trabajo**
@@ -135,7 +136,6 @@
 - `ST40` — Overol microporoso BizTex Micro Tipo 5/6
 - `CPH` — Overol desechable microporoso Tipo 5/6
 - `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
-- `2290` — Delantal químico y bata desechable
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
 - `Overol` — Peto y chaqueta química reutilizable
@@ -318,7 +318,7 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 59
+## Falta foto por color — 58
 
 
 **Camisetas y polos reflectivos**
@@ -379,7 +379,6 @@
 
 - `ST40` — Overol microporoso BizTex Micro Tipo 5/6
 - `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
-- `2290` — Delantal químico y bata desechable
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
 - `Overol` — Peto y chaqueta química reutilizable
