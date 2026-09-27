@@ -1,10 +1,10 @@
 # Reporte del catálogo
 
-**183 productos · 81 completos** (referencia, foto, ficha y sector)
+**184 productos · 84 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Protección para las manos | 40 | 21 | 4 | 19 | 4 | 2 | 8 |
+| Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 8 |
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
 | Ignífugos y arco eléctrico | 12 | 2 | 3 | 10 | 1 |  | 1 |
 | Protección anticaídas (trabajo en altura) | 10 |  |  | 10 | 2 | 3 |  |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **183** | **81** | **20** | **101** | **23** | **14** | **58** |
+| **TOTAL** | **184** | **84** | **20** | **99** | **23** | **14** | **58** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 101
+## Sin ficha técnica — 99
 
 
 **Pantalones de trabajo**
@@ -113,9 +113,7 @@
 - `N96780` — Guante anticorte Ninja Wave
 - `DF-B43` — Guante anticorte A4 HPPE + nitrilo espumado
 - `PD4900` — Guante mecánico hi-vis A9 + impacto
-- `3205` — Guante de conductor en cuero grano
 - `4550` — Guante de soldador de cuero dividido
-- `A530` — Guante reforzado de soldador
 - `5319` — Guante nitrilo químico flock 15 mil
 - `(sin ref)` — Guante químico de inmersión
 - `6001` — Guante nitrilo desechable 4 mil sin polvo
