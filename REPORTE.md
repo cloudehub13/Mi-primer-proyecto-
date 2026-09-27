@@ -1,29 +1,29 @@
 # Reporte del catálogo
 
-**184 productos · 84 completos** (referencia, foto, ficha y sector)
+**184 productos · 94 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 8 |
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
-| Ignífugos y arco eléctrico | 12 | 2 | 3 | 10 | 1 |  | 1 |
-| Protección anticaídas (trabajo en altura) | 10 |  |  | 10 | 2 | 3 |  |
+| Ignífugos y arco eléctrico | 12 | 5 | 3 | 7 | 1 |  | 1 |
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 6 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
-| Primeros auxilios y control de derrames | 7 |  | 2 | 7 | 1 | 1 |  |
-| Protección auditiva | 8 | 2 | 1 | 5 |  |  |  |
+| Protección anticaídas (trabajo en altura) | 10 | 4 |  | 6 | 2 | 3 | 3 |
+| Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
 | Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 | 1 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
+| Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
 | Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **184** | **84** | **20** | **99** | **23** | **14** | **58** |
+| **TOTAL** | **184** | **94** | **20** | **89** | **23** | **13** | **61** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 99
+## Sin ficha técnica — 89
 
 
 **Pantalones de trabajo**
@@ -90,9 +90,7 @@
 
 - `EPFU01` — Tapón de espuma PU Encore™
 - `EPRU01` — Tapón reutilizable TPR de 4 bridas Encore™
-- `EP07` — Tapón detectable con cordón
 - `EP01` — Banda semiauditiva
-- `EP10` — Orejera de diadema y para casco
 
 **Protección respiratoria**
 
@@ -141,12 +139,9 @@
 
 **Ignífugos y arco eléctrico**
 
-- `BZ13` — Chaqueta Bizweld en lona BZ13
 - `BIZ2` — Chaqueta Bizweld BIZ2
 - `FR25` — Chaqueta Bizflame Plus FR25
 - `FR89` — Camisa Bizflame 88/12 FR89
-- `BZ31` — Pantalón cargo Bizweld resistente a la llama BZ31
-- `BZ30` — Pantalón Bizweld BZ30
 - `FR18` — Pasamontañas resistente a la llama y antiestático FR18
 - `por` — Mandil, polainas y accesorios de cuero para soldadura
 - `5012` — Guante estructural de bombero
@@ -154,11 +149,7 @@
 
 **Protección anticaídas (trabajo en altura)**
 
-- `FP11` — Arnés 1 punto
-- `FP12` — Arnés 2 puntos
-- `FP17` — Arnés 3 y 4 puntos
 - `FP74` — Eslinga simple con absorbedor 140 kg
-- `FP51` — Eslinga doble "Y" con absorbedor
 - `por` — Eslinga de posicionamiento regulable
 - `FP40` — Bloque retráctil de cinta
 - `cinta` — Cinta de anclaje + mosquetón
@@ -191,7 +182,6 @@
 
 **Primeros auxilios y control de derrames**
 
-- `FA10` — Botiquín de pared para lugar de trabajo
 - `FA21` — Botiquín para vehículo en estuche blando
 - `por` — Kit de quemaduras
 - `CAMILLA-PLEG` — Camilla, collar cervical y férulas
@@ -272,7 +262,7 @@
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
 
-## Sin sector asignado — 14
+## Sin sector asignado — 13
 
 
 **Protección facial y ocular**
@@ -308,15 +298,11 @@
 
 - `DELINEADOR-POST` — Delineador tubular tipo poste con base y cintas reflectivas
 
-**Primeros auxilios y control de derrames**
-
-- `FA10` — Botiquín de pared para lugar de trabajo
-
 **Ergonomía: rodilleras y coderas**
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 58
+## Falta foto por color — 61
 
 
 **Camisetas y polos reflectivos**
@@ -385,6 +371,12 @@
 **Ignífugos y arco eléctrico**
 
 - `BIZ2` — Chaqueta Bizweld BIZ2
+
+**Protección anticaídas (trabajo en altura)**
+
+- `FP11` — Arnés de 1 punto — FP11
+- `FP12` — Arnés de 2 puntos — FP12
+- `FP17` — Arnés Comfort de 3 puntos con cinturón — FP17
 
 **Protección para los pies**
 
