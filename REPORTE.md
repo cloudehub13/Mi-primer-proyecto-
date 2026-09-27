@@ -1,6 +1,6 @@
 # Reporte del catálogo
 
-**183 productos · 79 completos** (referencia, foto, ficha y sector)
+**183 productos · 80 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
@@ -18,11 +18,11 @@
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
-| Camisetas y polos reflectivos | 8 | 7 |  | 1 |  |  | 7 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
+| Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
-| **TOTAL** | **183** | **79** | **20** | **103** | **23** | **14** | **59** |
+| **TOTAL** | **183** | **80** | **20** | **102** | **23** | **14** | **59** |
 
 ## Sin foto — 20
 
@@ -71,7 +71,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 103
+## Sin ficha técnica — 102
 
 
 **Pantalones de trabajo**
@@ -216,10 +216,6 @@
 - `CGNG8` — Cuello tubular refrescante de alta visibilidad
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
-
-**Camisetas y polos reflectivos**
-
-- `EG-212` — Polo reflectivo de manga larga
 
 **Pantalones de trabajo**
 
