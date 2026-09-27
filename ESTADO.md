@@ -23,7 +23,7 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Avance
 
-**184 productos · 79 completos** (referencia, foto, ficha y sector)
+**183 productos · 79 completos** (referencia, foto, ficha y sector)
 
 El desglose por rubro y el listado de lo que falta están en **`REPORTE.md`**,
 que se regenera solo a partir de `docs/datos.js`. No copiar cifras a mano aquí:

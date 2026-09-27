@@ -1,6 +1,6 @@
 # Reporte del catálogo
 
-**184 productos · 79 completos** (referencia, foto, ficha y sector)
+**183 productos · 79 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
@@ -17,12 +17,12 @@
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
-| Camisetas y polos reflectivos | 9 | 7 |  | 2 |  |  | 8 |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
+| Camisetas y polos reflectivos | 8 | 7 |  | 1 |  |  | 7 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
-| **TOTAL** | **184** | **79** | **20** | **104** | **23** | **14** | **60** |
+| **TOTAL** | **183** | **79** | **20** | **103** | **23** | **14** | **59** |
 
 ## Sin foto — 20
 
@@ -71,12 +71,8 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 104
+## Sin ficha técnica — 103
 
-
-**Camisetas y polos reflectivos**
-
-- `S190` — Camiseta hi-vis con bolsillo
 
 **Pantalones de trabajo**
 
@@ -326,13 +322,12 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 60
+## Falta foto por color — 59
 
 
 **Camisetas y polos reflectivos**
 
 - `EG-178` — Camiseta reflectiva de manga larga — EG-178
-- `S190` — Camiseta hi-vis con bolsillo
 - `S277` — Polo hi-vis de manga larga
 
 **Pantalones de trabajo**
