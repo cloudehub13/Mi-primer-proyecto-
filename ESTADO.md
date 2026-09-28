@@ -23,7 +23,7 @@ Ese es el enlace que se le manda al cliente. Se actualiza con `./publicar.sh`.
 
 ## Avance
 
-**189 productos · 114 completos** (referencia, foto, ficha y sector)
+**189 productos · 118 completos** (referencia, foto, ficha y sector)
 
 El desglose por rubro y el listado de lo que falta están en **`REPORTE.md`**,
 que se regenera solo a partir de `docs/datos.js`. No copiar cifras a mano aquí:
@@ -31,11 +31,11 @@ se desactualizan a la primera tanda de productos nuevos.
 
 Pendiente grueso, en orden de impacto:
 
-1. **74 sin ficha técnica descargable** — es la brecha más grande.
-2. **44 con varios colores y una sola foto** — falta la foto por color.
+1. **70 sin ficha técnica descargable** — es la brecha más grande.
+2. **41 con varios colores y una sola foto** — falta la foto por color.
 3. **20 sin fotografía.**
 4. **23 con referencia mala** (quedó texto de extracción en vez de la referencia real).
-5. **9 sin sector asignado.**
+5. **8 sin sector asignado.**
 
 ## Referencias que hoy salen mal al cliente
 

@@ -1,6 +1,6 @@
 # Fichas técnicas por pedir
 
-Las **74 referencias** del catálogo que hoy salen sin ficha descargable,
+Las **70 referencias** del catálogo que hoy salen sin ficha descargable,
 en orden alfabético.
 
 ⚠️ = la referencia está mal escrita en el catálogo, hay que confirmarla con el
@@ -45,50 +45,46 @@ proveedor. ❓ = probablemente ya no existe, ver `DUDOSOS-MCR.md`.
 | 35 | `N96780` | MCR Safety | Guante anticorte Ninja Wave | Protección para las manos |
 | 36 | `OG110AF` | MCR Safety | Sobre-lente Law® OTG | Protección facial y ocular |
 | 37 | `PD4900` ❓ | MCR Safety | Guante mecánico hi-vis A9 + impacto | Protección para las manos |
-| 38 | `S887` | Portwest | Pantalón cargo multibolsillos | Pantalones de trabajo |
-| 39 | `S917` | Portwest | Pantalón de trabajo hi-vis | Pantalones de trabajo |
-| 40 | `SPILL-CHEM-20` | Elite Guard | Kit antiderrame químico | Primeros auxilios y control de derrames |
-| 41 | `SPILL-OIL-20` | Elite Guard | Kit antiderrame para hidrocarburos | Primeros auxilios y control de derrames |
-| 42 | `SPILL-U-20` | Elite Guard | Kit antiderrame universal en contenedor móvil | Primeros auxilios y control de derrames |
-| 43 | `ST40` | Portwest | Overol microporoso BizTex Micro Tipo 5/6 | Ropa de protección química y desechable |
-| 44 | `ST47` | Portwest | Cubrezapato, cofia y cubrebarba desechables | Ropa de protección química y desechable |
-| 45 | `ST70` | Portwest | Overol BizTex Tipo 3/4/5/6 con costuras selladas | Ropa de protección química y desechable |
-| 46 | `TAMBOR-TRAFICO` | Elite Guard | Tambor de tráfico de polietileno con base rellenable | Señalización y seguridad vial |
-| 47 | `UC491` | MCR · River City | Chaleco de malla con bolsillo | Chalecos de alta visibilidad |
-| 48 | `UFT69` | Portwest | Steelite™ Work UFT69 | Protección para los pies |
-| 49 | `US376` | MCR · River City | Chaleco surveyor multibolsillos | Chalecos de alta visibilidad |
-| 50 | `US383` | MCR · River City | Chaleco Clase 3 con mangas | Chalecos de alta visibilidad |
-| 51 | `US385` | Portwest | Chaleco expansible breakaway | Chalecos de alta visibilidad |
-| 52 | `ALTA` ⚠️ | ALTA | Codera de protección | Ergonomía: rodilleras y coderas |
-| 53 | `ALTA` ⚠️ | ALTA | Rodillera de alto impacto con D3O® | Ergonomía: rodilleras y coderas |
-| 54 | `ALTA` ⚠️ | ALTA | Rodillera profesional con cap de goma | Ergonomía: rodilleras y coderas |
-| 55 | `cinta` ⚠️ | Portwest | Cinta de anclaje + mosquetón | Protección anticaídas (trabajo en altura) |
-| 56 | `Kondor` ⚠️ | Kondor | Bota de seguridad de cuero | Protección para los pies |
-| 57 | `Kondor` ⚠️ | Kondor | Bota de seguridad premium | Protección para los pies |
-| 58 | `Kondor` ⚠️ | Kondor | Bota Jumbo Seguridad Tridensidad Blindada | Protección para los pies |
-| 59 | `MCR` ⚠️ | MCR Safety | Guante tejido calibre 7 | Protección para las manos |
-| 60 | `Overol` ⚠️ | Tingley | Peto y chaqueta química reutilizable | Ropa de protección química y desechable |
-| 61 | `por` ⚠️ | MCR Safety | Banda antisudor / refrescante para casco | Confort térmico y estrés por calor |
-| 62 | `por` ⚠️ | Kondor | Bota dieléctrica | Protección para los pies |
-| 63 | `por` ⚠️ | Tingley | Bota muslera (hip boot) de PVC | Protección para los pies |
-| 64 | `por` ⚠️ | MCR Safety | Chaleco refrescante evaporativo | Confort térmico y estrés por calor |
-| 65 | `por` ⚠️ | Portwest | Eslinga de posicionamiento regulable | Protección anticaídas (trabajo en altura) |
-| 66 | `por` ⚠️ | Portwest | Kit de quemaduras | Primeros auxilios y control de derrames |
-| 67 | `por` ⚠️ | Portwest | Mandil, polainas y accesorios de cuero para soldadura | Ignífugos y arco eléctrico |
-| 68 | `por` ⚠️ | MCR Safety | Manga anticorte HPPE / Kevlar® | Protección para las manos |
-| 69 | `por` ⚠️ | Portwest | Paleta y banderola de señalero hi-vis | Señalización y seguridad vial |
-| 70 | `por` ⚠️ | Tingley | Sobrecalzado impermeable | Protección para los pies |
-| 71 | `por` ⚠️ | Tingley | Traje de respuesta a materiales peligrosos | Ropa de protección química y desechable |
-| 72 | `REF` ⚠️ | Elite Guard | Botas de seguridad dieléctricas REF 9029 | Protección para los pies |
-| 73 | *(sin referencia)* ⚠️ | GISA | Guante químico de inmersión | Protección para las manos |
-| 74 | *(sin referencia)* ⚠️ | GISA | Manga anticorte HPPE | Protección para las manos |
+| 38 | `SPILL-CHEM-20` | Elite Guard | Kit antiderrame químico | Primeros auxilios y control de derrames |
+| 39 | `SPILL-OIL-20` | Elite Guard | Kit antiderrame para hidrocarburos | Primeros auxilios y control de derrames |
+| 40 | `SPILL-U-20` | Elite Guard | Kit antiderrame universal en contenedor móvil | Primeros auxilios y control de derrames |
+| 41 | `ST47` | Portwest | Cubrezapato, cofia y cubrebarba desechables | Ropa de protección química y desechable |
+| 42 | `TAMBOR-TRAFICO` | Elite Guard | Tambor de tráfico de polietileno con base rellenable | Señalización y seguridad vial |
+| 43 | `UC491` | MCR · River City | Chaleco de malla con bolsillo | Chalecos de alta visibilidad |
+| 44 | `UFT69` | Portwest | Steelite™ Work UFT69 | Protección para los pies |
+| 45 | `US376` | MCR · River City | Chaleco surveyor multibolsillos | Chalecos de alta visibilidad |
+| 46 | `US383` | MCR · River City | Chaleco Clase 3 con mangas | Chalecos de alta visibilidad |
+| 47 | `US385` | Portwest | Chaleco expansible breakaway | Chalecos de alta visibilidad |
+| 48 | `ALTA` ⚠️ | ALTA | Codera de protección | Ergonomía: rodilleras y coderas |
+| 49 | `ALTA` ⚠️ | ALTA | Rodillera de alto impacto con D3O® | Ergonomía: rodilleras y coderas |
+| 50 | `ALTA` ⚠️ | ALTA | Rodillera profesional con cap de goma | Ergonomía: rodilleras y coderas |
+| 51 | `cinta` ⚠️ | Portwest | Cinta de anclaje + mosquetón | Protección anticaídas (trabajo en altura) |
+| 52 | `Kondor` ⚠️ | Kondor | Bota de seguridad de cuero | Protección para los pies |
+| 53 | `Kondor` ⚠️ | Kondor | Bota de seguridad premium | Protección para los pies |
+| 54 | `Kondor` ⚠️ | Kondor | Bota Jumbo Seguridad Tridensidad Blindada | Protección para los pies |
+| 55 | `MCR` ⚠️ | MCR Safety | Guante tejido calibre 7 | Protección para las manos |
+| 56 | `Overol` ⚠️ | Tingley | Peto y chaqueta química reutilizable | Ropa de protección química y desechable |
+| 57 | `por` ⚠️ | MCR Safety | Banda antisudor / refrescante para casco | Confort térmico y estrés por calor |
+| 58 | `por` ⚠️ | Kondor | Bota dieléctrica | Protección para los pies |
+| 59 | `por` ⚠️ | Tingley | Bota muslera (hip boot) de PVC | Protección para los pies |
+| 60 | `por` ⚠️ | MCR Safety | Chaleco refrescante evaporativo | Confort térmico y estrés por calor |
+| 61 | `por` ⚠️ | Portwest | Eslinga de posicionamiento regulable | Protección anticaídas (trabajo en altura) |
+| 62 | `por` ⚠️ | Portwest | Kit de quemaduras | Primeros auxilios y control de derrames |
+| 63 | `por` ⚠️ | Portwest | Mandil, polainas y accesorios de cuero para soldadura | Ignífugos y arco eléctrico |
+| 64 | `por` ⚠️ | MCR Safety | Manga anticorte HPPE / Kevlar® | Protección para las manos |
+| 65 | `por` ⚠️ | Portwest | Paleta y banderola de señalero hi-vis | Señalización y seguridad vial |
+| 66 | `por` ⚠️ | Tingley | Sobrecalzado impermeable | Protección para los pies |
+| 67 | `por` ⚠️ | Tingley | Traje de respuesta a materiales peligrosos | Ropa de protección química y desechable |
+| 68 | `REF` ⚠️ | Elite Guard | Botas de seguridad dieléctricas REF 9029 | Protección para los pies |
+| 69 | *(sin referencia)* ⚠️ | GISA | Guante químico de inmersión | Protección para las manos |
+| 70 | *(sin referencia)* ⚠️ | GISA | Manga anticorte HPPE | Protección para las manos |
 
 ## Por marca
 
 | Marca | Referencias |
 |---|--:|
 | MCR Safety | 21 |
-| Portwest | 17 |
+| Portwest | 13 |
 | Elite Guard | 10 |
 | Tingley | 6 |
 | Cordova | 4 |
@@ -97,4 +93,4 @@ proveedor. ❓ = probablemente ya no existe, ver `DUDOSOS-MCR.md`.
 | MCR · River City | 3 |
 | ALTA | 3 |
 | Shelby | 2 |
-| **TOTAL** | **74** |
+| **TOTAL** | **70** |

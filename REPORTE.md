@@ -1,14 +1,14 @@
 # Reporte del catálogo
 
-**189 productos · 114 completos** (referencia, foto, ficha y sector)
+**189 productos · 118 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 1 |
 | Protección para los pies | 17 | 7 | 1 | 10 | 7 |  | 5 |
-| Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
+| Ropa de protección química y desechable | 9 | 4 | 3 | 5 | 2 |  | 4 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
@@ -16,14 +16,14 @@
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Ergonomía: rodilleras y coderas | 6 | 3 |  | 3 | 3 | 1 |  |
-| Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
 | Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
+| Pantalones de trabajo | 8 | 8 |  |  |  |  | 1 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Protección respiratoria | 5 | 5 |  |  |  |  |  |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **189** | **114** | **20** | **74** | **23** | **9** | **44** |
+| **TOTAL** | **189** | **118** | **20** | **70** | **23** | **8** | **41** |
 
 ## Sin foto — 20
 
@@ -72,12 +72,8 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 74
+## Sin ficha técnica — 70
 
-
-**Pantalones de trabajo**
-
-- `S917` — Pantalón de trabajo hi-vis
 
 **Protección facial y ocular**
 
@@ -121,9 +117,7 @@
 
 **Ropa de protección química y desechable**
 
-- `ST40` — Overol microporoso BizTex Micro Tipo 5/6
 - `CPH` — Overol desechable microporoso Tipo 5/6
-- `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
 - `Overol` — Peto y chaqueta química reutilizable
@@ -187,10 +181,6 @@
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
 
-**Pantalones de trabajo**
-
-- `S887` — Pantalón cargo multibolsillos
-
 ## Referencia por confirmar — 23
 
 
@@ -244,7 +234,7 @@
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
 
-## Sin sector asignado — 9
+## Sin sector asignado — 8
 
 
 **Protección facial y ocular**
@@ -260,10 +250,6 @@
 
 - `US385` — Chaleco expansible breakaway
 
-**Ropa de protección química y desechable**
-
-- `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
-
 **Protección anticaídas (trabajo en altura)**
 
 - `cinta` — Cinta de anclaje + mosquetón
@@ -277,17 +263,13 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 44
+## Falta foto por color — 41
 
 
 **Camisetas y polos reflectivos**
 
 - `EG-178` — Camiseta reflectiva de manga larga — EG-178
 - `S277` — Polo hi-vis de manga larga
-
-**Pantalones de trabajo**
-
-- `S917` — Pantalón de trabajo hi-vis
 
 **Impermeables (capotes)**
 
@@ -322,7 +304,6 @@
 
 **Ropa de protección química y desechable**
 
-- `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
 - `Overol` — Peto y chaqueta química reutilizable
@@ -354,7 +335,6 @@
 
 **Pantalones de trabajo**
 
-- `S887` — Pantalón cargo multibolsillos
 - `EV440` — Pantalón EV4 Stretch Holster
 
 **Camisetas y polos reflectivos**
