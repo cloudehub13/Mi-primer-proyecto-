@@ -1,20 +1,20 @@
 # Reporte del catálogo
 
-**187 productos · 103 completos** (referencia, foto, ficha y sector)
+**189 productos · 106 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 1 |
-| Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
+| Protección para los pies | 17 | 6 | 1 | 11 | 7 |  | 5 |
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
 | Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 |  |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
-| Ignífugos y arco eléctrico | 15 | 11 | 3 | 4 | 1 |  |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
+| Ignífugos y arco eléctrico | 15 | 12 | 3 | 3 | 1 |  |  |
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **187** | **103** | **20** | **83** | **23** | **12** | **43** |
+| **TOTAL** | **189** | **106** | **20** | **82** | **23** | **12** | **44** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 83
+## Sin ficha técnica — 82
 
 
 **Pantalones de trabajo**
@@ -139,7 +139,6 @@
 
 **Ignífugos y arco eléctrico**
 
-- `FR18` — Pasamontañas resistente a la llama y antiestático FR18
 - `por` — Mandil, polainas y accesorios de cuero para soldadura
 - `5012` — Guante estructural de bombero
 - `5002` — Guante forestal y de proximidad
@@ -295,7 +294,7 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 43
+## Falta foto por color — 44
 
 
 **Camisetas y polos reflectivos**
@@ -351,6 +350,7 @@
 - `Kondor` — Bota de seguridad de cuero
 - `Kondor` — Bota de seguridad premium
 - `31261` — Bota de rodilla PVC Pilot G2™
+- `FW95` — Bota de caucho Total Safety S5 — FW95
 - `por` — Sobrecalzado impermeable
 
 **Señalización y seguridad vial**
