@@ -8,22 +8,22 @@
 | Protección para los pies | 17 | 7 | 1 | 10 | 7 |  | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
-| Ropa de protección química y desechable | 9 | 4 | 3 | 5 | 2 |  | 4 |
+| Ropa de protección química y desechable | 9 | 4 | 3 | 5 | 2 |  | 3 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
-| Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
+| Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 |  |
 | Ignífugos y arco eléctrico | 15 | 12 | 3 | 3 | 1 |  |  |
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Ergonomía: rodilleras y coderas | 6 | 3 |  | 3 | 3 | 1 |  |
-| Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
-| Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
+| Protección para la cabeza | 10 | 10 |  |  |  |  |  |
+| Camisetas y polos reflectivos | 8 | 8 |  |  |  |  |  |
 | Pantalones de trabajo | 8 | 8 |  |  |  |  | 1 |
-| Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
+| Impermeables (capotes) | 6 | 6 |  |  |  |  |  |
 | Protección respiratoria | 5 | 5 |  |  |  |  |  |
-| Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
+| Overoles (mamelucos) | 3 | 3 |  |  |  |  | 1 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **189** | **118** | **20** | **70** | **23** | **8** | **41** |
+| **TOTAL** | **189** | **118** | **20** | **70** | **23** | **8** | **14** |
 
 ## Sin foto — 20
 
@@ -263,50 +263,17 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 41
+## Falta foto por color — 14
 
-
-**Camisetas y polos reflectivos**
-
-- `EG-178` — Camiseta reflectiva de manga larga — EG-178
-- `S277` — Polo hi-vis de manga larga
-
-**Impermeables (capotes)**
-
-- `H440` — Chubasquero hi-vis Clase 3 Essentials 190T
-- `H444` — Pantalón hi-vis para lluvia Classic Contrast
-- `S440` — Chubasquero impermeable Classic — S440
-- `S441` — Pantalón impermeable Classic — S441
-
-**Protección para la cabeza**
-
-- `PW02` — Casco de seguridad ventilado tipo cap — PW02 Safety Pro
-- `PS54` — Casco de seguridad dieléctrico tipo cap — PS54 Endurance Plus
-- `PS53` — Casco para trabajo en altura — PS53 Height Endurance
-- `PW52` — Casco de ala ancha ventilado — PW52 Premier Vented Full Brim
-- `PS52` — Casco de ala ancha ventilado — PS52 Future
-- `PS56` — Casco de ala ancha dieléctrico — PS56 Premier Full Brim
-- `HA22` — Gorra transpirable con faldón solar — HA22
 
 **Protección para las manos**
 
 - `A320` — Guante nitrilo espuma Dexti-Grip
 
-**Chalecos de alta visibilidad**
-
-- `UC491` — Chaleco de malla con bolsillo
-- `S476` — Chaleco ejecutivo hi-vis con bolsillos — S476 Berlin
-- `C370` — Chaleco hi-vis de malla con tirantes — C370 MeshAir
-- `C494` — Chaleco hi-vis media malla con portagafete — C494
-- `F474` — Chaleco de señalización Iona — F474
-- `US383` — Chaleco Clase 3 con mangas
-- `US385` — Chaleco expansible breakaway
-
 **Ropa de protección química y desechable**
 
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
-- `Overol` — Peto y chaqueta química reutilizable
 - `por` — Traje de respuesta a materiales peligrosos
 
 **Protección para los pies**
@@ -326,22 +293,10 @@
 
 - `por` — Chaleco refrescante evaporativo
 
-**Camisetas y polos reflectivos**
-
-- `EG-212` — Polo reflectivo de manga larga
-- `S174` — Polo hi-vis bicolor en algodón
-- `S279` — Polo hi-vis bicolor de manga larga
-- `S280` — Camiseta hi-vis bicolor de manga larga
-
 **Pantalones de trabajo**
 
 - `EV440` — Pantalón EV4 Stretch Holster
 
-**Camisetas y polos reflectivos**
-
-- `DX416` — Camiseta hi-vis DX4 de manga larga
-
 **Overoles (mamelucos)**
 
-- `C813` — Overol Liverpool con cierre
 - `C814` — Overol Iona de algodón con reflectivo
