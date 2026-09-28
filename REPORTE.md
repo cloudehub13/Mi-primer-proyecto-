@@ -1,29 +1,29 @@
 # Reporte del catálogo
 
-**189 productos · 106 completos** (referencia, foto, ficha y sector)
+**189 productos · 114 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 1 |
-| Protección para los pies | 17 | 6 | 1 | 11 | 7 |  | 5 |
+| Protección para los pies | 17 | 7 | 1 | 10 | 7 |  | 5 |
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
-| Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 |  |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
-| Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
 | Ignífugos y arco eléctrico | 15 | 12 | 3 | 3 | 1 |  |  |
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
+| Ergonomía: rodilleras y coderas | 6 | 3 |  | 3 | 3 | 1 |  |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
 | Camisetas y polos reflectivos | 8 | 8 |  |  |  |  | 7 |
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
+| Protección respiratoria | 5 | 5 |  |  |  |  |  |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **189** | **106** | **20** | **82** | **23** | **12** | **44** |
+| **TOTAL** | **189** | **114** | **20** | **74** | **23** | **9** | **44** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 82
+## Sin ficha técnica — 74
 
 
 **Pantalones de trabajo**
@@ -91,14 +91,6 @@
 - `EPFU01` — Tapón de espuma PU Encore™
 - `EPRU01` — Tapón reutilizable TPR de 4 bridas Encore™
 - `EP01` — Banda semiauditiva
-
-**Protección respiratoria**
-
-- `P201` — Mascarilla N95 con válvula
-- `P304` — Mascarilla FFP3 con válvula
-- `P410` — Media cara TPE
-- `P500` — Cara completa
-- `P941` — Filtros de rosca Portwest — serie P9xx
 
 **Protección para las manos**
 
@@ -154,7 +146,6 @@
 - `Kondor` — Bota de seguridad de cuero
 - `Kondor` — Bota de seguridad premium
 - `UFT69` — Steelite™ Work UFT69
-- `FW06` — Bota Steelite Rigger S1P HRO FW06
 - `por` — Bota dieléctrica
 - `REF` — Botas de seguridad dieléctricas REF 9029
 - `Kondor` — Bota Jumbo Seguridad Tridensidad Blindada
@@ -184,8 +175,6 @@
 
 **Ergonomía: rodilleras y coderas**
 
-- `KP10` — Rodillera de espuma de alta densidad
-- `KP30` — Rodillera de gel de silicona
 - `ALTA` — Rodillera profesional con cap de goma
 - `ALTA` — Rodillera de alto impacto con D3O®
 - `ALTA` — Codera de protección
@@ -255,18 +244,12 @@
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
 
-## Sin sector asignado — 12
+## Sin sector asignado — 9
 
 
 **Protección facial y ocular**
 
 - `2320R` — Goggle de ventilación indirecta
-
-**Protección respiratoria**
-
-- `P304` — Mascarilla FFP3 con válvula
-- `P500` — Cara completa
-- `P941` — Filtros de rosca Portwest — serie P9xx
 
 **Protección para las manos**
 
