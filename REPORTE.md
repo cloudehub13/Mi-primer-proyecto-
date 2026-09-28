@@ -1,21 +1,21 @@
 # Reporte del catálogo
 
-**189 productos · 118 completos** (referencia, foto, ficha y sector)
+**189 productos · 124 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 1 |
+| Protección para las manos | 41 | 28 | 4 | 13 | 4 | 2 | 1 |
 | Protección para los pies | 17 | 7 | 1 | 10 | 7 |  | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
 | Ropa de protección química y desechable | 9 | 4 | 3 | 5 | 2 |  | 3 |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
-| Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 |  |
 | Ignífugos y arco eléctrico | 15 | 12 | 3 | 3 | 1 |  |  |
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Ergonomía: rodilleras y coderas | 6 | 3 |  | 3 | 3 | 1 |  |
+| Protección facial y ocular | 12 | 10 |  | 2 |  | 1 |  |
 | Protección para la cabeza | 10 | 10 |  |  |  |  |  |
 | Camisetas y polos reflectivos | 8 | 8 |  |  |  |  |  |
 | Pantalones de trabajo | 8 | 8 |  |  |  |  | 1 |
@@ -23,7 +23,7 @@
 | Protección respiratoria | 5 | 5 |  |  |  |  |  |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 1 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **189** | **118** | **20** | **70** | **23** | **8** | **14** |
+| **TOTAL** | **189** | **124** | **20** | **64** | **23** | **8** | **14** |
 
 ## Sin foto — 20
 
@@ -72,14 +72,12 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 70
+## Sin ficha técnica — 64
 
 
 **Protección facial y ocular**
 
-- `BK110` — Lente envolvente sin marco
 - `KD110` — Lente ajustable Klondike®
-- `OG110AF` — Sobre-lente Law® OTG
 - `2320R` — Goggle de ventilación indirecta
 
 **Protección auditiva**
@@ -91,18 +89,14 @@
 **Protección para las manos**
 
 - `9666` — Guante PU gris sobre nylon 13G
-- `9669` — Guante PU negro táctil
 - `A320` — Guante nitrilo espuma Dexti-Grip
 - `GF-304` — Guante nylon con nitrilo arenado
 - `9680` — Guante látex crinkle NXG
-- `92752` — Guante anticorte A3 CutPro HyperMax
 - `N96780` — Guante anticorte Ninja Wave
 - `DF-B43` — Guante anticorte A4 HPPE + nitrilo espumado
 - `PD4900` — Guante mecánico hi-vis A9 + impacto
 - `4550` — Guante de soldador de cuero dividido
-- `5319` — Guante nitrilo químico flock 15 mil
 - `(sin ref)` — Guante químico de inmersión
-- `6001` — Guante nitrilo desechable 4 mil sin polvo
 - `9690` — Guante aislado Ninja® Ice
 - `MCR` — Guante tejido calibre 7
 - `por` — Manga anticorte HPPE / Kevlar®

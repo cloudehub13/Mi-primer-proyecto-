@@ -1,5 +1,9 @@
 # Referencias MCR por confirmar
 
+> **Actualización:** `6001`, `92752`, `9669` y `5319` **quedaron confirmadas**: MCR
+> emitió su ficha técnica y ya están instaladas en el catálogo. Salen de la lista
+> de dudosas. Quedan **5** por decidir: `9666`, `9680`, `PD4900`, `9690` y `2320R`.
+
 Michael pidió marcar los dudosos. Estas son las referencias **MCR Safety** que
 ya estaban en el catálogo y de las que **no tenemos ficha del fabricante**.
 Entraron desde listas de distribuidor, no desde documento de MCR, así que no
