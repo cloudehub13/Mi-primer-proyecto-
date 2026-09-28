@@ -32,10 +32,10 @@ se desactualizan a la primera tanda de productos nuevos.
 Pendiente grueso, en orden de impacto:
 
 1. **84 sin ficha técnica descargable** — es la brecha más grande.
-2. **61 con varios colores y una sola foto** — falta la foto por color.
+2. **44 con varios colores y una sola foto** — falta la foto por color.
 3. **20 sin fotografía.**
 4. **23 con referencia mala** (quedó texto de extracción en vez de la referencia real).
-5. **13 sin sector asignado.**
+5. **12 sin sector asignado.**
 
 ## Referencias que hoy salen mal al cliente
 

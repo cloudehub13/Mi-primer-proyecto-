@@ -4,18 +4,18 @@
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 8 |
+| Protección para las manos | 41 | 24 | 4 | 17 | 4 | 2 | 1 |
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
-| Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 6 |
-| Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
+| Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 5 |
+| Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
 | Ignífugos y arco eléctrico | 15 | 10 | 3 | 5 | 1 |  | 1 |
-| Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 | 1 |
+| Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 |  |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
-| Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
+| Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
-| Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 | 4 |
+| Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **187** | **102** | **20** | **84** | **23** | **12** | **62** |
+| **TOTAL** | **187** | **102** | **20** | **84** | **23** | **12** | **44** |
 
 ## Sin foto — 20
 
@@ -296,7 +296,7 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 62
+## Falta foto por color — 44
 
 
 **Camisetas y polos reflectivos**
@@ -325,23 +325,9 @@
 - `PS56` — Casco de ala ancha dieléctrico — PS56 Premier Full Brim
 - `HA22` — Gorra transpirable con faldón solar — HA22
 
-**Protección facial y ocular**
-
-- `MP110AF` — Lente envolvente antiempañante — Memphis MP110AF
-- `MP110PF` — Lente envolvente MAX6® con cordón — Memphis MP110PF
-- `2310AF` — Goggle de ventilación indirecta — 2310AF
-- `PW96` — Protector facial con visor de policarbonato
-
 **Protección para las manos**
 
 - `A320` — Guante nitrilo espuma Dexti-Grip
-- `96785` — Guante de nylon con doble recubrimiento de nitrilo — NXG® 96785
-- `92754BP` — Guante anticorte A5 con palma de bipolímero — Cut Pro® 92754BP
-- `EX5` — Guante anticorte A3 con palma de poliuretano — Excalibur® EX5
-- `EX5NF` — Guante anticorte A3 con palma de nitrilo espumado — Excalibur® EX5NF
-- `EX5NFF` — Guante anticorte A3 totalmente recubierto de nitrilo — Excalibur® EX5NFF
-- `PD6952` — Guante anticorte A7 con protección de impacto — Predator® PD6952
-- `(sin ref)` — Guante químico de inmersión
 
 **Chalecos de alta visibilidad**
 
@@ -355,7 +341,6 @@
 
 **Ropa de protección química y desechable**
 
-- `ST40` — Overol microporoso BizTex Micro Tipo 5/6
 - `ST70` — Overol BizTex Tipo 3/4/5/6 con costuras selladas
 - `ST47` — Cubrezapato, cofia y cubrebarba desechables
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
@@ -365,13 +350,6 @@
 **Ignífugos y arco eléctrico**
 
 - `BIZ2` — Chaqueta Bizweld BIZ2
-
-**Protección anticaídas (trabajo en altura)**
-
-- `FP11` — Arnés de 1 punto — FP11
-- `FP12` — Arnés de 2 puntos — FP12
-- `FP17` — Arnés Comfort de 3 puntos con cinturón — FP17
-- `FP74` — Eslinga simple con absorbedor 140 kg — FP74
 
 **Protección para los pies**
 
@@ -384,11 +362,6 @@
 
 - `CINTA-PELIGRO` — Cinta de barricada y cadena plástica
 - `HV05` — Brazalete LED intermitente
-- `BALIZA-LED` — Luz intermitente ámbar para cono / tambor / barrera
-
-**Ergonomía: rodilleras y coderas**
-
-- `ALTA` — Rodillera profesional con cap de goma
 
 **Confort térmico y estrés por calor**
 
