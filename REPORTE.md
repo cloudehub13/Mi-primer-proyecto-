@@ -1,6 +1,6 @@
 # Reporte del catálogo
 
-**187 productos · 102 completos** (referencia, foto, ficha y sector)
+**187 productos · 103 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
@@ -9,10 +9,10 @@
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 5 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 2 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
-| Ignífugos y arco eléctrico | 15 | 10 | 3 | 5 | 1 |  | 1 |
 | Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 |  |
 | Confort térmico y estrés por calor | 6 | 1 | 5 | 5 | 2 |  | 1 |
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
+| Ignífugos y arco eléctrico | 15 | 11 | 3 | 4 | 1 |  |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 |  |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
 | Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 |  |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **187** | **102** | **20** | **84** | **23** | **12** | **44** |
+| **TOTAL** | **187** | **103** | **20** | **83** | **23** | **12** | **43** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 84
+## Sin ficha técnica — 83
 
 
 **Pantalones de trabajo**
@@ -139,7 +139,6 @@
 
 **Ignífugos y arco eléctrico**
 
-- `BIZ2` — Chaqueta Bizweld BIZ2
 - `FR18` — Pasamontañas resistente a la llama y antiestático FR18
 - `por` — Mandil, polainas y accesorios de cuero para soldadura
 - `5012` — Guante estructural de bombero
@@ -296,7 +295,7 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 44
+## Falta foto por color — 43
 
 
 **Camisetas y polos reflectivos**
@@ -346,10 +345,6 @@
 - `MPSCL` — Cubrezapato, cubrebota, manguito y cofia desechables
 - `Overol` — Peto y chaqueta química reutilizable
 - `por` — Traje de respuesta a materiales peligrosos
-
-**Ignífugos y arco eléctrico**
-
-- `BIZ2` — Chaqueta Bizweld BIZ2
 
 **Protección para los pies**
 
