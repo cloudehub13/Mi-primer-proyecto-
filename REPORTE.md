@@ -1,6 +1,6 @@
 # Reporte del catálogo
 
-**187 productos · 99 completos** (referencia, foto, ficha y sector)
+**187 productos · 102 completos** (referencia, foto, ficha y sector)
 
 | Rubro | Total | Completos | Sin foto | Sin ficha | Ref mala | Sin sector | Falta foto por color |
 |---|--:|--:|--:|--:|--:|--:|--:|
@@ -8,7 +8,6 @@
 | Protección para los pies | 15 | 4 | 1 | 11 | 7 |  | 4 |
 | Ropa de protección química y desechable | 9 | 2 | 3 | 7 | 2 | 1 | 6 |
 | Señalización y seguridad vial | 7 |  | 1 | 7 | 1 | 1 | 3 |
-| Protección anticaídas (trabajo en altura) | 10 | 4 |  | 6 | 2 | 3 | 3 |
 | Primeros auxilios y control de derrames | 7 | 1 | 2 | 6 | 1 |  |  |
 | Ignífugos y arco eléctrico | 15 | 10 | 3 | 5 | 1 |  | 1 |
 | Ergonomía: rodilleras y coderas | 6 | 1 |  | 5 | 3 | 1 | 1 |
@@ -16,6 +15,7 @@
 | Protección respiratoria | 5 |  |  | 5 |  | 3 |  |
 | Protección facial y ocular | 12 | 8 |  | 4 |  | 1 | 4 |
 | Chalecos de alta visibilidad | 10 | 6 |  | 4 |  | 1 | 7 |
+| Protección anticaídas (trabajo en altura) | 10 | 7 |  | 3 | 2 | 2 | 4 |
 | Protección auditiva | 8 | 4 | 1 | 3 |  |  |  |
 | Pantalones de trabajo | 8 | 6 |  | 2 |  |  | 3 |
 | Protección para la cabeza | 10 | 10 |  |  |  |  | 7 |
@@ -23,7 +23,7 @@
 | Impermeables (capotes) | 6 | 6 |  |  |  |  | 4 |
 | Overoles (mamelucos) | 3 | 3 |  |  |  |  | 2 |
 | Uniformes corporativos | 1 | 1 |  |  |  |  |  |
-| **TOTAL** | **187** | **99** | **20** | **87** | **23** | **13** | **61** |
+| **TOTAL** | **187** | **102** | **20** | **84** | **23** | **12** | **62** |
 
 ## Sin foto — 20
 
@@ -72,7 +72,7 @@
 
 - `PS44` — Orejera plegable SNR 36 dB — PS44 Top
 
-## Sin ficha técnica — 87
+## Sin ficha técnica — 84
 
 
 **Pantalones de trabajo**
@@ -147,12 +147,9 @@
 
 **Protección anticaídas (trabajo en altura)**
 
-- `FP74` — Eslinga simple con absorbedor 140 kg
 - `por` — Eslinga de posicionamiento regulable
-- `FP40` — Bloque retráctil de cinta
 - `cinta` — Cinta de anclaje + mosquetón
 - `FP27` — Cuerda kernmantle + freno de soga
-- `FP62` — Kit anticaídas básico
 
 **Protección para los pies**
 
@@ -260,7 +257,7 @@
 - `por` — Chaleco refrescante evaporativo
 - `por` — Banda antisudor / refrescante para casco
 
-## Sin sector asignado — 13
+## Sin sector asignado — 12
 
 
 **Protección facial y ocular**
@@ -288,7 +285,6 @@
 
 **Protección anticaídas (trabajo en altura)**
 
-- `FP74` — Eslinga simple con absorbedor 140 kg
 - `cinta` — Cinta de anclaje + mosquetón
 - `FP27` — Cuerda kernmantle + freno de soga
 
@@ -300,7 +296,7 @@
 
 - `ALTA` — Rodillera profesional con cap de goma
 
-## Falta foto por color — 61
+## Falta foto por color — 62
 
 
 **Camisetas y polos reflectivos**
@@ -375,6 +371,7 @@
 - `FP11` — Arnés de 1 punto — FP11
 - `FP12` — Arnés de 2 puntos — FP12
 - `FP17` — Arnés Comfort de 3 puntos con cinturón — FP17
+- `FP74` — Eslinga simple con absorbedor 140 kg — FP74
 
 **Protección para los pies**
 
