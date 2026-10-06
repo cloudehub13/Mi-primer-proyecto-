@@ -539,8 +539,29 @@ def doc_renglon(r):
     doc(path).build(f, onFirstPage=pie, onLaterPages=pie)
     return path
 
+def revisar(rutas):
+    """Avisa de cualquier campo sin llenar antes de subir al SLI."""
+    import re
+    from pypdf import PdfReader
+    sucios = []
+    for ruta in rutas:
+        texto = " ".join((pg.extract_text() or "") for pg in PdfReader(ruta).pages)
+        texto = re.sub(r"\s+", " ", texto)
+        for hueco in dict.fromkeys(re.findall(r"«([^»]*)»", texto)):
+            sucios.append((os.path.basename(ruta), hueco.strip()))
+    if sucios:
+        print("\n!!  NO SUBIR AL SLI TODAVÍA: hay campos sin llenar")
+        for archivo, hueco in sucios:
+            print("    %-42s «%s»" % (archivo, hueco[:70]))
+    else:
+        print("\nOK: ningún campo pendiente. Los PDF están listos para el SLI.")
+    return not sucios
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    print(carta())
-    for r in RENGLONES:
-        print(doc_renglon(r))
+    # La carta de presentación se mantiene solo en Word (word/CARTA-PRESENTACION-215088.docx)
+    # para que no circulen dos versiones distintas del mismo documento.
+    generados = [doc_renglon(r) for r in RENGLONES]
+    for g in generados:
+        print(g)
+    revisar(generados)
