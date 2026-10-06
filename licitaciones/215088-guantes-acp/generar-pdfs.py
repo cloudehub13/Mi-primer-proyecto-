@@ -23,14 +23,14 @@ from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table,
 
 # ---------------------------------------------------------------- proponente
 PROPONENTE = {
-    "razon_social": "«RAZÓN SOCIAL LEGAL SEGÚN RUC»",
-    "ruc":          "«RUC + DV»",
+    "razon_social": "ELITE GUARD, S.A.",
+    "ruc":          "155742060-2-2023  DV 50",
     "aviso_op":     "«No. DE AVISO DE OPERACIÓN»",
     "seguro_soc":   "«No. PATRONAL (CSS)»",
     "dirección":    "«DIRECCIÓN»",
     "teléfono":     "«TELÉFONO»",
-    "correo":       "«CORREO ELECTRÓNICO»",
-    "representante":"«NOMBRE DEL REPRESENTANTE / PERSONA AUTORIZADA»",
+    "correo":       "ventas@eliteguardsa.com",
+    "representante":"MICHAEL ROSENTHAL",
     "cargo":        "«CARGO»",
 }
 
@@ -177,7 +177,7 @@ def firma():
     t2 = Table([[Paragraph("Firma y nombre del proponente<br/>%s<br/>%s"
                            % (PROPONENTE["representante"], PROPONENTE["razon_social"]), ST["small"]),
                  "",
-                 Paragraph("Fecha", ST["small"])]],
+                 Paragraph("Fecha<br/>6 de octubre de 2026", ST["small"])]],
                colWidths=[82*mm, 12*mm, 72*mm])
     f.append(t2)
     return f
@@ -340,13 +340,13 @@ RENGLONES = [
      "de <b>grado examen</b>.", EVC),
     ("<b>Nitrile</b>",
      "Guante de <b>nitrilo</b> azul, <b>sin polvo</b>, espesor <b>8 mil</b> y longitud de "
-     "<b>9,5 pulgadas</b>.", EVF),
+     "<b>9,5 pulgadas</b> (24,13 cm), ambidiestro, con puño enrollado y acabado sin talco.", EVF),
     ("<b>Medium</b>",
      "Se oferta la <b>talla mediana (M)</b>.", EVD),
     ("<b>Presentation in box of 50 to 100</b>",
-     "Se suministra en la presentación de <b>caja</b> dentro del rango exigido de 50 a 100 "
-     "unidades por caja. &laquo;CONFIRMAR EL CONTEO EXACTO DE LA CAJA DE TALLA MEDIANA CON EL "
-     "FABRICANTE Y DEJARLO ESCRITO AQUÍ&raquo;", EVD),
+     "Se suministra en <b>caja dispensadora de 50 unidades</b>, conteo que queda dentro del "
+     "rango de 50 a 100 unidades por caja exigido por el renglón. La caja máster agrupa 10 "
+     "dispensadoras, 500 unidades en total.", EVF),
     ("Documentación exigida por el numeral 9.1",
      "Se adjuntan la ficha técnica del fabricante con las características resaltadas, la "
      "<b>imagen del producto</b> y la <b>marcación de la caja</b>, donde constan la referencia, "

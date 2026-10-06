@@ -64,8 +64,10 @@ def capa(w, h, renglon, producto, marcas):
     c.save(); buf.seek(0)
     return buf.getvalue()
 
-def rotular(origen, destino, renglon, producto, marcas):
+def rotular(origen, destino, renglon, producto, marcas, paginas=None):
     doc = pymupdf.open(origen)
+    if paginas:                      # quedarse solo con las paginas del fabricante
+        doc.select(list(range(paginas[0], paginas[1] + 1)))
     for pg in doc:
         # El resaltado va dibujado en el contenido de la pagina, no como anotacion:
         # show_pdf_page no arrastra anotaciones y se perderian al recomponer.
@@ -74,8 +76,10 @@ def rotular(origen, destino, renglon, producto, marcas):
             for frase in frases:
                 for area in pg.search_for(frase):
                     caja = pymupdf.Rect(area.x0 - 1, area.y0 - 1, area.x1 + 1, area.y1 + 1)
+                    # encima y translucido: algunas fichas traen un fondo opaco
+                    # que taparia un resaltado dibujado por debajo.
                     pg.draw_rect(caja, color=None, fill=AMARILLO,
-                                 fill_opacity=1, overlay=False)
+                                 fill_opacity=0.38, overlay=True)
                     if not puesto:
                         pg.insert_text((caja.x1 + 2, caja.y1 - 1), "[%d]" % n,
                                        fontsize=6.5, color=(0.92, 0.35, 0.18))
@@ -99,6 +103,8 @@ def rotular(origen, destino, renglon, producto, marcas):
     return destino
 
 # --- qué resaltar en cada ficha -------------------------------------------------
+U = "/root/.claude/uploads/b972f6c3-b2d6-54d0-9bfc-fe7f33aae5b5/"
+
 MARCAS_J710 = [
   (["EN ISO 374-1", "Type A", "AGJKLPT"],
    "Protección química: EN ISO 374-1 Tipo A, código AGJKLPT"),
@@ -114,13 +120,76 @@ MARCAS_J710 = [
    "Prestación adicional: ISO 18889 G2 (plaguicidas)"),
 ]
 
+MARCAS_9366 = [
+  (["Kevlar® Aramid Shell", "7-Gauge Kevlar"],
+   "Concha de aramida Kevlar® de DuPont™, calibre 7"),
+  (["PVC Dots on 2 Sides", "PVC"],
+   "Puntos de PVC en ambas caras (guante reversible)"),
+  (["Cut Resistant Work Gloves"],
+   "Guante resistente al corte (ANSI A3 mínimo exigido)"),
+  (["Regular Weight"],
+   "Tejido de peso regular"),
+  (["9366XL", "X - Large"],
+   "Talla 10 (X-Large), la exigida por el renglón"),
+  (["Polybag 12"],
+   "Presentación: bolsa de 12 pares"),
+]
+
+MARCAS_6008 = [
+  (["EN455", "ASTM D6319"],
+   "Grado examen: EN 455 partes 1, 2 y 3 y ASTM D6319"),
+  (["Nitrilo", "nitrilo"],
+   "Material: nitrilo"),
+  (["8 mil"],
+   "Espesor 8 mil, longitud 9,5 pulgadas"),
+  (["Paquete interior: 50 por dispensador", "50 por dispensador"],
+   "Presentación: caja de 50 unidades (el renglón exige 50 a 100)"),
+  (["6008M", "Mediano"],
+   "Talla mediana, la exigida por el renglón"),
+  (["EN374-1", "EN 374-1:2016", "EN374-5"],
+   "Prestación adicional: barrera química y biológica"),
+]
+
+MARCAS_92754BP = [
+  (["HyperMax® HPPE Shell", "Fibra HyperMax"],
+   "Concha tejida de HPPE HyperMax®, resistente a corte y desgarro"),
+  (["Bi-Polymer Coated Palm and Fingertips", "bipolímero"],
+   "Palma y yemas recubiertas: abrasión y punción"),
+  (["13-Gauge", "13 Galgas"],
+   "Calibre 13"),
+  (["92754BPL", "L (9)"],
+   "Talla 9 (Large), la exigida por el renglón"),
+  (["Reinforced thumb crotch", "entrepierna reforzada"],
+   "Prestación adicional: refuerzo entre pulgar e índice"),
+]
+
+MARCAS_92852PU = [
+  (["Puntuación de corte (ANSI):", "A4"],
+   "Resistencia al corte ANSI A4"),
+  (["EN 388: Puntuación CE - Abrasión:", "EN 388: Puntuación CE - Corte TDM100:"],
+   "EN 388:2016 — abrasión 4, corte 5, desgarro 4, punción 2, corte TDM D"),
+  (["poliuretano (PU) en la palma", "Poliuretano (PU)"],
+   "Recubrimiento de poliuretano en palma y dedos"),
+  (["HPPE gris sintético", "calibre 13"],
+   "Carcasa sin costuras de HPPE sintético, calibre 13"),
+  (["Puntuación de abrasión (ANSI):", "Puntuación de pinchazo (ANSI):"],
+   "Abrasión ANSI 5 y punción ANSI 3"),
+]
+
 TRABAJOS = [
- ("/root/.claude/uploads/b972f6c3-b2d6-54d0-9bfc-fe7f33aae5b5/17a7281f-J710.pdf",
-  2, "Elite Guard J710", MARCAS_J710,
+ (U+"17a7281f-J710.pdf", 2, "Elite Guard J710", MARCAS_J710, None,
   "fichas-rotuladas/ANEXO-A-R2-PPE-GLO-00012-ELITE-GUARD-J710.pdf"),
+ (U+"1f65657d-9366.pdf", 3, "MCR Safety CutPro 9366", MARCAS_9366, (2, 3),
+  "fichas-rotuladas/ANEXO-A-R3-PPE-GLO-00020-MCR-9366.pdf"),
+ (U+"f3432d3c-6008_Nitrishield.pdf", 4, "MCR Safety NitriShield 6008", MARCAS_6008, None,
+  "fichas-rotuladas/ANEXO-A-R4-PPE-GLO-00022-MCR-6008.pdf"),
+ (U+"1871ffb4-ficha_92754BP.pdf", 5, "MCR Safety CutPro 92754BP", MARCAS_92754BP, None,
+  "fichas-rotuladas/ANEXO-A-R5-PPE-GLO-00031-MCR-92754BP.pdf"),
+ (U+"a83cfb49-92852PU.pdf", 6, "MCR Safety CutPro 92852PU", MARCAS_92852PU, None,
+  "fichas-rotuladas/ANEXO-A-R6-PPE-GLO-00033-MCR-92852PU.pdf"),
 ]
 
 if __name__ == "__main__":
     os.makedirs("fichas-rotuladas", exist_ok=True)
-    for origen, renglon, producto, marcas, salida in TRABAJOS:
-        print(rotular(origen, salida, renglon, producto, marcas))
+    for origen, renglon, producto, marcas, paginas, salida in TRABAJOS:
+        print(rotular(origen, salida, renglon, producto, marcas, paginas))
