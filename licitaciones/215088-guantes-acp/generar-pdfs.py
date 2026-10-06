@@ -228,12 +228,49 @@ EV_FICHA = "Anexo A &mdash; ficha técnica del fabricante, sección resaltada"
 EV_CERT  = "Anexo B &mdash; declaración de conformidad / certificado del fabricante"
 EV_DECL  = "Declaración del proponente (este documento)"
 
-EVF = "Anexo A &mdash; ficha técnica MCR Safety 9366, sección resaltada"
+EVF = "Anexo A &mdash; ficha técnica del fabricante, característica resaltada"
 EVI = "Anexo A &mdash; imagen del producto ofertado"
-EVM = "Anexo B &mdash; marcación del producto / etiqueta DuPont&trade; Kevlar&reg;"
+EVM = "Anexo B &mdash; marcación del producto / etiqueta del fabricante"
+EVC = "Anexo C &mdash; certificación o declaración de conformidad vigente"
 EVD = "Declaración del proponente (este documento)"
 
 RENGLONES = [
+ {
+  "n": "2", "item": "PPE-GLO-00012",
+  "título": "PROPUESTA TÉCNICA &mdash; Guante químico industrial, talla large",
+  "archivo": "02-RENGLON-2-PPE-GLO-00012.pdf",
+  "prod": {"marca": "Elite Guard", "modelo": "Guante de nitrilo corto J710",
+           "pn": "J710 talla 9 (Large)", "cant": "1,500", "um": "Pr (par)",
+           "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
+                      "producto que cumple con la descripción."},
+  "matriz": [
+    ("<b>Gloves, chemical</b>",
+     "Guante de inmersión formulado para el contacto con sustancias químicas. Certificado "
+     "<b>EN ISO 374-1 Tipo A</b> con el código de ensayo <b>AGJKLPT</b>, es decir, ensayado con "
+     "éxito frente a <b>seis</b> de los grupos de productos químicos de la norma, que es el "
+     "nivel más exigente de la clasificación. Categoría <b>CE CAT III</b> (riesgo mortal o "
+     "irreversible), organismo notificado <b>0493</b>.", EVC),
+    ("<b>Industrial</b>",
+     "Guante de uso industrial, no de un solo uso: cuerpo de nitrilo con <b>superficie texturada</b> "
+     "para agarre en mojado y <b>flocado interior</b> de algodón para jornada completa. Declara "
+     "resistencia mecánica <b>EN 388 &mdash; 4102X</b> (abrasión 4, corte 1, desgarro 0, punción 2). "
+     "Apto para industria química, petrolera y alimentaria.", EVF),
+    ("<b>Large</b>",
+     "Se oferta la <b>talla 9</b>, que es la que corresponde a <b>Large</b> en la escala "
+     "dimensional de <b>ISO 21420</b>. El modelo se fabrica en tallas 8, 9 y 10.", EVD),
+    ("Documentación exigida por el numeral 9.1",
+     "Se adjuntan la ficha técnica del fabricante con las características resaltadas, la "
+     "<b>imagen del producto</b> y la <b>marcación</b> que el guante lleva impresa en el puño "
+     "(referencia, talla, pictogramas y marcado CE).", EVI),
+  ],
+  "nota": "<b>Prestaciones adicionales del producto ofertado</b>, por encima de lo exigido por el "
+          "renglón: formulación <b>libre de proteínas</b>, que reduce el riesgo de reacción "
+          "alérgica; <b>sin silicona</b>, apto para pintura, electrónica y manipulación de vidrio; "
+          "<b>apto para contacto con alimentos</b>; y certificación <b>ISO 18889 nivel G2</b> para "
+          "el manejo de plaguicidas.<br/><br/>"
+          "El producto es de marca propia del proponente, lo que asegura la trazabilidad directa "
+          "exigida por el numeral 9.7 y el control del plazo de entrega.",
+ },
  {
   "n": "3", "item": "PPE-GLO-00020",
   "título": "PROPUESTA TÉCNICA &mdash; Guante punteado de Kevlar&reg;, hombre",
@@ -244,23 +281,27 @@ RENGLONES = [
                       "conforme al numeral 9.1.1 del pliego"},
   "matriz": [
     ("<b>Gloves, dotted</b>",
-     "Guante <b>punteado</b>: tejido de punto con puntos de PVC aplicados sobre la trama.", EVF),
+     "Guante <b>punteado</b>: tejido de punto con puntos de PVC negro aplicados sobre la trama.", EVF),
     ("<b>Kevlar</b>, with <b>PVC dots on both sides</b>",
-     "Concha de aramida <b>Kevlar&reg;</b> con <b>puntos de PVC en ambas caras</b>: el guante se "
-     "puede voltear y usar por los dos lados, lo que duplica su vida útil. Los puntos aportan "
-     "agarre y resistencia a la abrasión.", EVF),
+     "Concha de aramida <b>Kevlar&reg;</b> con <b>puntos de PVC negro en ambas caras</b>. Al estar "
+     "punteado por los dos lados, el guante se puede voltear y usar por el revés, lo que duplica "
+     "su vida útil. Los puntos aportan agarre y resistencia a la abrasión. El guante es "
+     "<b>lavable</b>.", EVF),
     ("Cut resistant level <b>ANSI A3 minimum</b>",
-     "Nivel de resistencia al corte <b>ANSI/ISEA 105 A3</b>, que satisface el mínimo exigido.", EVF),
+     "Nivel de resistencia al corte <b>ANSI A3</b> declarado por el fabricante, que satisface el "
+     "mínimo exigido. Nivel de abrasión 2.", EVC),
     ("<b>Knit wrist cuff</b>",
      "<b>Puño tejido</b> (knit wrist) que ajusta a la muñeca e impide el ingreso de partículas.", EVF),
     ("<b>Men size: 10 X-Large</b> as required, shall be as <b>ISO 21420</b>",
-     "Se oferta la <b>talla 10 (X-Large)</b> de la serie, cuyas medidas corresponden a la talla 10 "
-     "de la norma <b>ISO 21420</b>. Se entrega muestra para su verificación dimensional.", EVD),
+     "Se oferta la <b>talla 10</b>, equivalente a <b>X-Large</b> en la escala dimensional de "
+     "<b>ISO 21420</b>. Se entrega muestra para su verificación dimensional.", EVD),
     ("<b>100 percent Kevlar only by DuPont</b>",
-     "Concha de <b>100% Kevlar&reg; de DuPont&trade;</b>, calibre 7, peso regular, sin recubrimiento "
-     "en la concha. No se emplea aramida de otro fabricante ni mezcla con fibras sintéticas.", EVF),
+     "Concha de <b>100% Kevlar&reg; de DuPont&trade;</b>, calibre 7, tejido de peso regular. "
+     "El fabricante está <b>certificado por DuPont&reg; como fabricante licenciado de guantes</b>, "
+     "lo que acredita el origen de la fibra. No se emplea aramida de otro fabricante ni mezcla "
+     "con fibras sintéticas.", EVC),
     ("Gloves shall have <b>DuPont Kevlar label</b>",
-     "Cada par lleva la <b>etiqueta DuPont&trade; Kevlar&reg;</b> del fabricante.", EVM),
+     "Cada par lleva la <b>etiqueta DuPont&trade; Kevlar&reg;</b> del fabricante licenciado.", EVM),
     ("<b>Product references: MCR Safety CutPro 9366</b>",
      "<b>Se oferta exactamente el producto de referencia de la Autoridad</b>: MCR Safety "
      "CutPro&reg; 9366. Esta declaración se hace expresamente en la propuesta técnica cargada en "
@@ -270,16 +311,122 @@ RENGLONES = [
      "planta baja, identificada con el nombre del proponente, el número de pliego 215088 y el "
      "número de propuesta, antes de la fecha y hora de cierre.", EVD),
     ("Manufacturer&#39;s descriptive <b>literature and image</b> are required with bid",
-     "Se adjuntan la <b>literatura descriptiva del fabricante</b> (Anexo A) y la <b>imagen del "
-     "producto ofertado</b>, ambas identificadas con el renglón al que aplican.", EVI),
+     "Se adjuntan la <b>literatura descriptiva del fabricante</b> y la <b>imagen del producto "
+     "ofertado</b>, identificadas con el renglón al que aplican.", EVI),
   ],
-  "nota": "<b>Presentación:</b> el producto se suministra en caja de 12 pares (una docena), que es "
-          "la presentación estándar del fabricante para esta referencia.<br/><br/>"
+  "nota": "<b>Presentación:</b> caja de 12 pares (una docena), presentación estándar del fabricante "
+          "para esta referencia.<br/><br/>"
           "<b>Declaración del numeral 9.1.1:</b> al ofertarse la marca y el modelo de referencia "
           "especificados por la Autoridad, el proponente deja constancia expresa de ello en esta "
-          "propuesta técnica cargada en el SLI. No obstante, se adjunta igualmente la matriz de "
-          "cumplimiento, la literatura del fabricante y la imagen del producto, y <b>se entrega la "
-          "muestra física</b>, ya que el numeral 9.2 de este pliego exige la muestra sin excepción.",
+          "propuesta técnica cargada en el SLI. Se adjunta igualmente la matriz de cumplimiento, "
+          "la literatura del fabricante y la imagen del producto, y <b>se entrega la muestra "
+          "física</b>, ya que el numeral 9.2 de este pliego exige la muestra sin excepción.",
+ },
+ {
+  "n": "4", "item": "PPE-GLO-00022",
+  "título": "PROPUESTA TÉCNICA &mdash; Guante de examen de nitrilo, mediano",
+  "archivo": "04-RENGLON-4-PPE-GLO-00022.pdf",
+  "prod": {"marca": "MCR Safety", "modelo": "Guante desechable de nitrilo 6008",
+           "pn": "6008 talla mediana (M)", "cant": "1,000", "um": "Box (caja)",
+           "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
+                      "producto que cumple con la descripción."},
+  "matriz": [
+    ("<b>Gloves, examination (exam) grade</b>",
+     "El producto está certificado bajo la serie <b>EN 455</b>, que es la norma europea específica "
+     "de <b>guantes médicos de un solo uso</b>: <b>EN 455-1:2000</b> (ausencia de agujeros), "
+     "<b>EN 455-2:2015</b> (propiedades físicas) y <b>EN 455-3:2015</b> (evaluación biológica). "
+     "Además cumple <b>ASTM D6319:2015</b>, que es precisamente la <i>especificación normalizada "
+     "para guantes de examen de nitrilo para aplicación médica</i>. Ambas acreditan la condición "
+     "de <b>grado examen</b>.", EVC),
+    ("<b>Nitrile</b>",
+     "Guante de <b>nitrilo</b> azul, <b>sin polvo</b>, espesor <b>8 mil</b> y longitud de "
+     "<b>9,5 pulgadas</b>.", EVF),
+    ("<b>Medium</b>",
+     "Se oferta la <b>talla mediana (M)</b>.", EVD),
+    ("<b>Presentation in box of 50 to 100</b>",
+     "Se suministra en la presentación de <b>caja</b> dentro del rango exigido de 50 a 100 "
+     "unidades por caja. &laquo;CONFIRMAR EL CONTEO EXACTO DE LA CAJA DE TALLA MEDIANA CON EL "
+     "FABRICANTE Y DEJARLO ESCRITO AQUÍ&raquo;", EVD),
+    ("Documentación exigida por el numeral 9.1",
+     "Se adjuntan la ficha técnica del fabricante con las características resaltadas, la "
+     "<b>imagen del producto</b> y la <b>marcación de la caja</b>, donde constan la referencia, "
+     "la talla, el conteo y el marcado de certificación.", EVI),
+  ],
+  "nota": "<b>Prestaciones adicionales del producto ofertado</b>: además de la condición de grado "
+          "examen, el guante está certificado como equipo de protección individual bajo el "
+          "<b>Reglamento (UE) 2016/425</b> y cumple <b>EN ISO 374-1:2016</b> (riesgo químico) y "
+          "<b>EN ISO 374-5:2016</b> (riesgo por microorganismos). Los materiales de sus componentes "
+          "<b>cumplen las reglamentaciones federales para el contacto con alimentos</b>.<br/><br/>"
+          "Es decir, el producto ofertado sirve a la vez como guante de examen y como barrera "
+          "química y biológica, cosa que un guante de examen corriente no acredita.",
+ },
+ {
+  "n": "5", "item": "PPE-GLO-00031",
+  "título": "PROPUESTA TÉCNICA &mdash; Guante anticorte, talla 9",
+  "archivo": "05-RENGLON-5-PPE-GLO-00031.pdf",
+  "prod": {"marca": "MCR Safety", "modelo": "CutPro&reg; serie 92754BP",
+           "pn": "92754BPL (talla 9 / Large)", "cant": "5,000", "um": "Each (par)",
+           "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
+                      "producto que cumple con la descripción."},
+  "matriz": [
+    ("<b>Gloves, cut resistant</b>",
+     "Guante anticorte con concha tejida de <b>HPPE HyperMax&reg;</b> de <b>calibre 13</b>, sin "
+     "costuras, con palma y yemas recubiertas de <b>bi-polímero</b>.", EVF),
+    ("Against <b>abrasion, cuts, tear and puncture</b>",
+     "El producto declara desempeño en los cuatro riesgos citados: el tejido HPPE aporta la "
+     "resistencia al <b>corte</b> y al <b>desgarro</b>, y el recubrimiento bi-polímero de palma y "
+     "yemas aporta la resistencia a la <b>abrasión</b> y a la <b>punción</b>.", EVF),
+    ("<b>EN 388:2016 &quot;4-X-4-2-C&quot; or ANSI cut level A4</b>",
+     "Se acredita por la <b>segunda de las dos alternativas</b> que admite el renglón. Según "
+     "<b>ANSI/ISEA 105</b>, el producto declara: corte <b>A5</b>, punción <b>3</b> y abrasión "
+     "<b>6</b>. El nivel de corte <b>A5 supera el A4</b> exigido como mínimo.", EVC),
+    ("<b>Size 9 (Large)</b>",
+     "Se oferta la <b>talla 9</b>, equivalente a <b>Large</b> en la escala dimensional de "
+     "<b>ISO 21420</b>. La serie se fabrica de XS a 2XL.", EVD),
+    ("Documentación exigida por el numeral 9.1",
+     "Se adjuntan la ficha técnica del fabricante con los niveles de desempeño resaltados, la "
+     "<b>imagen del producto</b> y la <b>marcación</b> impresa en el dorso del guante, donde "
+     "constan la referencia, la talla y los pictogramas de certificación.", EVI),
+  ],
+  "nota": "<b>Prestaciones adicionales del producto ofertado</b>: <b>refuerzo entre el pulgar y el "
+          "índice</b>, que es donde primero se rompe un guante anticorte y por tanto alarga la vida "
+          "útil del lote; y <b>palma compatible con pantalla táctil</b>, que evita que el operario "
+          "se quite el guante para usar un dispositivo.<br/><br/>"
+          "&laquo;SOLICITAR A MCR SAFETY EL CÓDIGO EN 388:2016 COMPLETO DE ESTA REFERENCIA Y "
+          "AGREGARLO AQUÍ, PORQUE EL RENGLÓN CITA PRIMERO EL CÓDIGO EUROPEO&raquo;",
+ },
+ {
+  "n": "6", "item": "PPE-GLO-00033",
+  "título": "PROPUESTA TÉCNICA &mdash; Guante tejido con palma de poliuretano, talla 11",
+  "archivo": "06-RENGLON-6-PPE-GLO-00033.pdf",
+  "prod": {"marca": "MCR Safety", "modelo": "CutPro&reg; serie 92852PU",
+           "pn": "92852PU talla 11 (2X-Large)", "cant": "&laquo;CONFIRMAR&raquo;", "um": "Each (par)",
+           "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
+                      "producto que cumple con la descripción."},
+  "matriz": [
+    ("<b>Gloves, synthetic knit</b>",
+     "Guante <b>tejido sin costuras</b> con concha de <b>HPPE sintético</b> gris de "
+     "<b>calibre 13</b>.", EVF),
+    ("With <b>PU covered palm and fingertips</b>",
+     "Recubrimiento de <b>poliuretano (PU) en la palma y en los dedos</b>, aplicado para mejorar "
+     "el agarre y la durabilidad del guante.", EVF),
+    ("<b>Industrial</b>",
+     "Guante de uso industrial: el tejido HPPE le da <b>alta resistencia a cortes, desgarros y "
+     "abrasión</b>, y el recubrimiento de poliuretano aporta agarre y durabilidad en uso "
+     "continuo.", EVF),
+    ("<b>Size 11 (2X-Large)</b>",
+     "Se oferta la <b>talla 11</b>, equivalente a <b>2X-Large</b> en la escala dimensional de "
+     "<b>ISO 21420</b>.", EVD),
+    ("Documentación exigida por el numeral 9.1",
+     "Se adjuntan la ficha técnica del fabricante con las características resaltadas, la "
+     "<b>imagen del producto</b> y la <b>marcación</b> impresa en el guante.", EVI),
+  ],
+  "nota": "<b>Prestación adicional del producto ofertado</b>: el renglón pide un guante tejido "
+          "sintético con palma de poliuretano, sin exigir nivel de corte. El producto ofertado "
+          "pertenece a la línea <b>CutPro&reg;</b>, de modo que además del agarre entrega "
+          "<b>resistencia al corte</b> sin costo adicional para la Autoridad.<br/><br/>"
+          "&laquo;CONFIRMAR LA CANTIDAD DEL RENGLÓN, QUE NO APARECE COMPLETA EN LA HOJA DE "
+          "RENGLONES DEL SLI&raquo;",
  },
 ]
 
