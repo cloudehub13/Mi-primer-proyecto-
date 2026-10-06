@@ -404,7 +404,7 @@ RENGLONES = [
   "título": "PROPUESTA TÉCNICA &mdash; Guante tejido con palma de poliuretano, talla 11",
   "archivo": "06-RENGLON-6-PPE-GLO-00033.pdf",
   "prod": {"marca": "MCR Safety", "modelo": "CutPro&reg; serie 92852PU",
-           "pn": "92852PUXXL (talla 11 / 2X-Large)", "cant": "&laquo;CANTIDAD SEGÚN SLI&raquo;", "um": "Each (par)",
+           "pn": "92852PUXXL (talla 11 / 2X-Large)", "cant": "900", "um": "Each (par)",
            "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
                       "producto que cumple con la descripción."},
   "matriz": [
