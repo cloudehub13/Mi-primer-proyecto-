@@ -400,23 +400,25 @@ RENGLONES = [
   "título": "PROPUESTA TÉCNICA &mdash; Guante tejido con palma de poliuretano, talla 11",
   "archivo": "06-RENGLON-6-PPE-GLO-00033.pdf",
   "prod": {"marca": "MCR Safety", "modelo": "CutPro&reg; serie 92852PU",
-           "pn": "92852PU talla 11 (2X-Large)", "cant": "&laquo;CONFIRMAR&raquo;", "um": "Each (par)",
+           "pn": "92852PUXXL (talla 11 / 2X-Large)", "cant": "&laquo;CONFIRMAR&raquo;", "um": "Each (par)",
            "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
                       "producto que cumple con la descripción."},
   "matriz": [
     ("<b>Gloves, synthetic knit</b>",
      "Guante <b>tejido sin costuras</b> con concha de <b>HPPE sintético</b> gris de "
-     "<b>calibre 13</b>.", EVF),
+     "<b>calibre 13</b>. Composición: HPPE, acero, poliéster, spandex y poliuretano.", EVF),
     ("With <b>PU covered palm and fingertips</b>",
      "Recubrimiento de <b>poliuretano (PU) en la palma y en los dedos</b>, aplicado para mejorar "
      "el agarre y la durabilidad del guante.", EVF),
     ("<b>Industrial</b>",
-     "Guante de uso industrial: el tejido HPPE le da <b>alta resistencia a cortes, desgarros y "
-     "abrasión</b>, y el recubrimiento de poliuretano aporta agarre y durabilidad en uso "
-     "continuo.", EVF),
+     "Guante de uso industrial, lavable y de fabricación ecológica. El fabricante declara "
+     "<b>ANSI/ISEA 105: corte A4, abrasión 5, punción 3</b>, y <b>EN 388:2016: abrasión 4, "
+     "corte 5, desgarro 4, punción 2, corte TDM D</b>. Son prestaciones por encima de lo que "
+     "el renglón exige, que no pide nivel de corte.", EVC),
     ("<b>Size 11 (2X-Large)</b>",
      "Se oferta la <b>talla 11</b>, equivalente a <b>2X-Large</b> en la escala dimensional de "
-     "<b>ISO 21420</b>.", EVD),
+     "<b>ISO 21420</b>. La disponibilidad del modelo en esta talla y sus niveles de desempeño "
+     "están confirmados por el fabricante mediante la comunicación que se adjunta.", EVM),
     ("Documentación exigida por el numeral 9.1",
      "Se adjuntan la ficha técnica del fabricante con las características resaltadas, la "
      "<b>imagen del producto</b> y la <b>marcación</b> impresa en el guante.", EVI),
@@ -425,6 +427,7 @@ RENGLONES = [
           "sintético con palma de poliuretano, sin exigir nivel de corte. El producto ofertado "
           "pertenece a la línea <b>CutPro&reg;</b>, de modo que además del agarre entrega "
           "<b>resistencia al corte</b> sin costo adicional para la Autoridad.<br/><br/>"
+          "<b>Presentación:</b> bolsa interior de 12 pares, caja de 144 pares.<br/><br/>"
           "&laquo;CONFIRMAR LA CANTIDAD DEL RENGLÓN, QUE NO APARECE COMPLETA EN LA HOJA DE "
           "RENGLONES DEL SLI&raquo;",
  },
