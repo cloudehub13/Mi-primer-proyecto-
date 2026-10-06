@@ -377,9 +377,10 @@ RENGLONES = [
      "resistencia al <b>corte</b> y al <b>desgarro</b>, y el recubrimiento bi-polímero de palma y "
      "yemas aporta la resistencia a la <b>abrasión</b> y a la <b>punción</b>.", EVF),
     ("<b>EN 388:2016 &quot;4-X-4-2-C&quot; or ANSI cut level A4</b>",
-     "Se acredita por la <b>segunda de las dos alternativas</b> que admite el renglón. Según "
-     "<b>ANSI/ISEA 105</b>, el producto declara: corte <b>A5</b>, punción <b>3</b> y abrasión "
-     "<b>6</b>. El nivel de corte <b>A5 supera el A4</b> exigido como mínimo.", EVC),
+     "Se acredita por la <b>segunda de las dos alternativas</b> que admite el renglón: el nivel "
+     "de corte <b>ANSI/ISEA 105</b>. El fabricante publica para esta referencia corte <b>A5</b>, "
+     "punción <b>3</b> y abrasión <b>6</b>. El nivel de corte <b>A5 supera el A4</b> exigido "
+     "como mínimo por el renglón.", EVC),
     ("<b>Size 9 (Large)</b>",
      "Se oferta la <b>talla 9</b>, equivalente a <b>Large</b> en la escala dimensional de "
      "<b>ISO 21420</b>. La serie se fabrica de XS a 2XL.", EVD),
@@ -392,15 +393,18 @@ RENGLONES = [
           "índice</b>, que es donde primero se rompe un guante anticorte y por tanto alarga la vida "
           "útil del lote; y <b>palma compatible con pantalla táctil</b>, que evita que el operario "
           "se quite el guante para usar un dispositivo.<br/><br/>"
-          "&laquo;SOLICITAR A MCR SAFETY EL CÓDIGO EN 388:2016 COMPLETO DE ESTA REFERENCIA Y "
-          "AGREGARLO AQUÍ, PORQUE EL RENGLÓN CITA PRIMERO EL CÓDIGO EUROPEO&raquo;",
+          "<b>Presentación:</b> empaque interior de 12 docenas en bolsa de polietileno, caja de "
+          "144 pares.<br/><br/>"
+          "El renglón admite acreditar el desempeño por el código EN 388:2016 <b>o</b> por el "
+          "nivel de corte ANSI. La presente propuesta se acoge a la segunda alternativa, que es "
+          "la que el fabricante declara para esta referencia.",
  },
  {
   "n": "6", "item": "PPE-GLO-00033",
   "título": "PROPUESTA TÉCNICA &mdash; Guante tejido con palma de poliuretano, talla 11",
   "archivo": "06-RENGLON-6-PPE-GLO-00033.pdf",
   "prod": {"marca": "MCR Safety", "modelo": "CutPro&reg; serie 92852PU",
-           "pn": "92852PUXXL (talla 11 / 2X-Large)", "cant": "&laquo;CONFIRMAR&raquo;", "um": "Each (par)",
+           "pn": "92852PUXXL (talla 11 / 2X-Large)", "cant": "&laquo;CANTIDAD SEGÚN SLI&raquo;", "um": "Each (par)",
            "ref_acp": "La descripción del renglón no indica producto de referencia ACP. Se oferta "
                       "producto que cumple con la descripción."},
   "matriz": [
@@ -428,8 +432,7 @@ RENGLONES = [
           "pertenece a la línea <b>CutPro&reg;</b>, de modo que además del agarre entrega "
           "<b>resistencia al corte</b> sin costo adicional para la Autoridad.<br/><br/>"
           "<b>Presentación:</b> bolsa interior de 12 pares, caja de 144 pares.<br/><br/>"
-          "&laquo;CONFIRMAR LA CANTIDAD DEL RENGLÓN, QUE NO APARECE COMPLETA EN LA HOJA DE "
-          "RENGLONES DEL SLI&raquo;",
+"",
  },
 ]
 
