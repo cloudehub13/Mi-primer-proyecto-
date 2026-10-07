@@ -164,22 +164,13 @@ def matriz(filas):
     return t
 
 def firma():
+    """Solo la declaracion de veracidad: la firma va en la carta de
+    presentacion, que es el documento que el proponente suscribe."""
     f = [Spacer(1, 18)]
     f.append(Paragraph(
         "El proponente declara que la información técnica aquí presentada es veraz y que el "
         "bien ofertado cumple al 100% con la descripción del renglón correspondiente del "
         "pliego de cargos.", ST["body"]))
-    f.append(Spacer(1, 22))
-    t = Table([["_" * 46, "", "_" * 34]], colWidths=[82*mm, 12*mm, 72*mm])
-    t.setStyle(TableStyle([("LINEBELOW", (0,0), (-1,-1), 0, colors.white),
-                           ("BOTTOMPADDING", (0,0), (-1,-1), 2)]))
-    f.append(t)
-    t2 = Table([[Paragraph("Firma y nombre del proponente<br/>%s<br/>%s"
-                           % (PROPONENTE["representante"], PROPONENTE["razon_social"]), ST["small"]),
-                 "",
-                 Paragraph("Fecha<br/>7 de octubre de 2026", ST["small"])]],
-               colWidths=[82*mm, 12*mm, 72*mm])
-    f.append(t2)
     return f
 
 def declaraciones_estandar():
