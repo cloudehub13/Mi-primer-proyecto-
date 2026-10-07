@@ -79,3 +79,24 @@ por el texto de la enmienda 1.
 |---|---|
 | `pliego-215088-partes-1-2.txt` | Texto de las partes 1 y 2 (información general + especificaciones) |
 | `pliego-215088-partes-3-4.txt` | Texto de las partes 3 y 4 (el contrato y las cláusulas) |
+
+## Los documentos que van al SLI
+
+**Siete documentos.** Cada renglón viaja como un solo PDF: primero la matriz de cumplimiento,
+detrás la ficha del fabricante rotulada con ese renglón y con lo que cumple resaltado. Así el
+evaluador abre un archivo por renglón y encuentra el requisito y su evidencia juntos.
+
+| # | Archivo | Qué es |
+|---|---|---|
+| 1 | `word/CARTA-PRESENTACION-215088.docx` | Carta, con los datos del proponente |
+| 2 | `word/PROPUESTA-ECONOMICA-215088.docx` | Cotización renglón por renglón |
+| 3 | `final/RENGLON-2-PPE-GLO-00012-ELITE-GUARD-J710.pdf` | Matriz + ficha |
+| 4 | `final/RENGLON-3-PPE-GLO-00020-MCR-9366.pdf` | Matriz + ficha |
+| 5 | `final/RENGLON-4-PPE-GLO-00022-MCR-6008.pdf` | Matriz + ficha |
+| 6 | `final/RENGLON-5-PPE-GLO-00031-MCR-92754BP.pdf` | Matriz + ficha |
+| 7 | `final/RENGLON-6-PPE-GLO-00033-MCR-92852PU.pdf` | Matriz + ficha |
+
+`word/ROTULOS-MUESTRAS-215088.docx` no se sube: se imprime y se pega sobre cada muestra.
+
+Material de trabajo, no se sube: `pdf/`, `fichas-rotuladas/`, los `.txt` del pliego y los
+scripts `generar-pdfs.py`, `rotular-fichas.py` y `unificar.py`.
