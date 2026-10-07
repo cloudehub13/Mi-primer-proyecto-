@@ -67,7 +67,12 @@ def vinetas(txts, ancho=176*mm):
         ("TOPPADDING",(0,0),(-1,-1),2.5),("BOTTOMPADDING",(0,0),(-1,-1),2.5)]))
     return t
 
+FIRMA_IMG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "firma.png")
+
 def firma(fecha):
+    from reportlab.platypus import Image as RLImage
+    rub = RLImage(FIRMA_IMG, width=42*mm, height=8.5*mm)
+    rub.hAlign = "LEFT"
     t = Table([[Paragraph("_______________________________________________<br/>"
                  "<b>%s &mdash; %s</b><br/>"
                  "<font color='#5a5a5a' size=7.5>Firma y nombre del proponente &middot; C.I.P. %s</font>"
@@ -77,7 +82,7 @@ def firma(fecha):
               colWidths=[106*mm, 70*mm])
     t.setStyle(TableStyle([("VALIGN",(0,0),(-1,-1),"TOP"),
                            ("LEFTPADDING",(0,0),(-1,-1),0)]))
-    return t
+    return KeepTogether([rub, t])
 
 # ------------------------------------------------------------------ carátula
 def banda(lic, titulo):
@@ -149,6 +154,8 @@ def carta(lic):
     for x in lic["ref"]:
         f.append(Paragraph(x, ST["body"]))
 
+    if lic.get("salto4"):
+        f.append(PageBreak())
     f.append(Paragraph("4.  Declaraciones del proponente", ST["h2"]))
     f.append(vinetas(DECL(lic)))
 
@@ -177,12 +184,60 @@ def DECL(lic):
  lic["enmiendas"],
 ]
 
+
+def lado_a_lado(lic):
+    """Los renglones en columnas, para que la economica quepa en una pagina."""
+    rs = lic["reng"]
+    ancho = 176*mm; c1 = 40*mm; cn = (ancho - c1) / len(rs)
+    filas = [["", ] + ["RENGLÓN %s" % r["n"] for r in rs]]
+    campos = [("Código ACP",            lambda r: r["cod"]),
+              ("Descripción",           lambda r: "<b>%s</b>" % r["desc"]),
+              ("Marca",                 lambda r: r["marca"]),
+              ("Modelo y N.° de parte", lambda r: "%s<br/>P/N %s" % (r["mod"], r["pn"])),
+              ("Talla ofertada",        lambda r: r["talla"]),
+              ("Cantidad solicitada",   lambda r: "%s %s" % (r["cant"], r["um"])),
+              ("Precio unitario (USD)", lambda r: "<b>US$ %s</b>" % r["pu"]),
+              ("Monto total (USD)",     lambda r: "<b>US$ %s</b>" % r["tot"])]
+    for et, fn in campos:
+        filas.append([Paragraph(et.upper(), ST["cellb"])] +
+                     [Paragraph(fn(r), ST["cell"]) for r in rs])
+    enc = [Paragraph("", ST["cell"])] + [Paragraph(
+            "<font color='white' size=9><b>RENGLÓN %s</b></font>" % r["n"],
+            ParagraphStyle("c", fontName="Helvetica-Bold", fontSize=9, leading=12,
+                           alignment=TA_CENTER, textColor=colors.white)) for r in rs]
+    filas[0] = enc
+    t = Table(filas, colWidths=[c1] + [cn]*len(rs))
+    n = len(filas)
+    t.setStyle(est_tabla([("BACKGROUND",(1,0),(-1,0),NEG),
+                          ("BACKGROUND",(0,0),(0,-1),FON),
+                          ("BACKGROUND",(1,n-2),(-1,n-1),AMB),
+                          ("LINEBELOW",(0,0),(-1,0),1.4,NAR),
+                          ("VALIGN",(0,0),(-1,-1),"TOP")]))
+    comunes = [("Validez de la oferta", "60 días calendario, contados a partir del acto de conocimiento de propuestas (numeral 1.3)"),
+               ("Plazo de entrega", lic["plazo"]),
+               ("Términos de entrega", "DAP Panamá. Incluye el trámite y el costo de la declaración simplificada de aduanas, la descarga de los bienes y su colocación en sitio, en la Sección de Almacenes, Corozal Oeste, Edificio 652, área de recibo (numeral 3.2)"),
+               ("Garantía", "Un (1) año contado desde la fecha de recepción del objeto del contrato (numeral 5)")]
+    t2 = Table([[Paragraph(a.upper(), ST["cellb"]), Paragraph(b, ST["cell"])] for a, b in comunes],
+               colWidths=[40*mm, 136*mm])
+    t2.setStyle(est_tabla([("BACKGROUND",(0,0),(0,-1),FON),("VALIGN",(0,0),(-1,-1),"TOP")]))
+    return [t, Spacer(1, 7),
+            Paragraph("Condiciones iguales para los dos renglones", ST["h2"]),
+            t2]
+
 # --------------------------------------------------------------- económica
 def economica(lic):
     f = [PageBreak()]
     f += cabecera(lic, "Propuesta económica")
     f.append(Paragraph(lic["intro_econ"], ST["body"]))
     f.append(Spacer(1, 4))
+    if lic.get("econ_lado_a_lado"):
+        f += lado_a_lado(lic)
+        f.append(Paragraph("Nota sobre el precio ofertado", ST["h2"]))
+        f.append(vinetas(["El precio ofertado NO incluye ITBMS ni impuestos de importación, "
+            "conforme a la cláusula 4.28.6 del pliego de cargos único: la Autoridad del Canal "
+            "de Panamá está exenta de dichos tributos."]))
+        f += [Spacer(1, 10), firma(lic["fecha"])]
+        return f
     for r in lic["reng"]:
         cab = Table([[Paragraph("RENGLÓN<br/><font size=16><b>%s</b></font>" % r["n"],
                        ParagraphStyle("x", fontName="Helvetica-Bold", fontSize=7.5,
@@ -268,8 +323,7 @@ LICS = [
            "cargada en el SLI.",
            "[ X ]&nbsp;&nbsp; El proponente <b>NO</b> oferta el producto de referencia en los "
            "renglones <b>2, 4, 5 y 6</b>; oferta producto equivalente que cumple al 100% con la "
-           "descripción del renglón, adjunta literatura descriptiva del fabricante, imagen del "
-           "producto y entrega muestra física.",
+           "descripción del renglón.",
            "<font color='#5a5a5a'>Nota: el numeral 9.2 de este pliego exige la entrega de muestra "
            "sin excepción, aun en los renglones donde se oferte el producto de referencia de la "
            "Autoridad.</font>"],
@@ -278,6 +332,7 @@ LICS = [
       intro_econ="La presente propuesta económica se formula renglón por renglón. La adjudicación "
         "de esta licitación es por precio más bajo POR RENGLÓN (numeral 1.5), por lo que cada "
         "renglón se cotiza de forma independiente. No se oferta el renglón 1.",
+      salto4=True,
       salida=RAIZ+"/215088-guantes-acp/final/00-CARTA-Y-PROPUESTA-ECONOMICA-215088.pdf"),
  dict(n="215116", obj="Lentes de protección personal", cierre="9 de octubre de 2026, 9:00 a.m.",
       fecha="7 de octubre de 2026", reng=R16, docs=DOCS16,
@@ -291,6 +346,7 @@ LICS = [
            "<font color='#5a5a5a'>Al no ofertarse el producto de referencia de la Autoridad, no "
            "aplica la excepción del numeral 9.2: se entrega muestra física de ambos renglones.</font>"],
       enmiendas="El proponente acusa recibo de la enmienda N.° 1 del 23 de septiembre de 2026 emitida por la Autoridad.",
+      econ_lado_a_lado=True,
       plazo="120 días calendario, contados a partir de la adjudicación de la orden de compra (numeral 3.1, según enmienda N.° 1)",
       intro_econ="La presente propuesta económica se formula renglón por renglón. La adjudicación "
         "de esta licitación es por precio más bajo POR RENGLÓN (numeral 1.5), por lo que cada "
