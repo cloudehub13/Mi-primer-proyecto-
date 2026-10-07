@@ -45,11 +45,19 @@ La descripción no exige acabado espejado, y así queda argumentado en la matriz
 
 ## Archivos
 
-| Archivo | Qué es |
-|---|---|
-| `word/CARTA-PRESENTACION-215116.docx` | Carta, con los datos del proponente puestos |
-| `word/PROPUESTA-ECONOMICA-215116.docx` | Cotización renglón por renglón, con precios |
-| `word/ROTULOS-MUESTRAS-215116.docx` | Dos rótulos, uno por renglón |
-| `pdf/01…02` | Propuestas técnicas, una por renglón |
-| `fichas-rotuladas/` | Fichas del fabricante rotuladas y resaltadas (Anexo A) |
-| `pliego-215116-*.txt`, `renglones-215116.txt` | Fuentes |
+**Cinco documentos van al SLI:**
+
+| # | Archivo | Qué es |
+|---|---|---|
+| 1 | `word/CARTA-PRESENTACION-215116.docx` | Carta, con los datos del proponente puestos |
+| 2 | `word/PROPUESTA-ECONOMICA-215116.docx` | Cotización renglón por renglón, con precios |
+| 3 | `word/ROTULOS-MUESTRAS-215116.docx` | Dos rótulos, uno por renglón. No se sube: se imprime |
+| 4 | `final/RENGLON-1-PPE-EYE-00026-MCR-MP110AF.pdf` | Matriz de cumplimiento **+ ficha del fabricante** |
+| 5 | `final/RENGLON-2-PPE-EYE-00027-MCR-MP112PF.pdf` | Matriz de cumplimiento **+ ficha del fabricante** |
+
+Cada renglón viaja como **un solo PDF**: primero la matriz de cumplimiento, detrás la ficha
+rotulada con ese renglón y con las características resaltadas. Así el evaluador abre un
+archivo por renglón y encuentra el requisito y su evidencia juntos, sin saltar entre adjuntos.
+
+Material de trabajo, no se sube: `pdf/`, `fichas-rotuladas/`, `pliego-215116-*.txt`,
+`renglones-215116.txt`, `generar-pdfs.py`, `rotular-fichas.py`, `unificar.py`.
