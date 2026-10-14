@@ -1,0 +1,259 @@
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+Licitación No. 215116
+Pliego de cargos : Parte 1 y 2
+Descripción general :
+LENTES DE PROTECCIÓN PERSONAL
+Enmienda No. 1 (23/septiembre/2026)  
+Se emite la Enmienda no. 1 como detalla a continuación,
+1. Se elimina de la descripción los productos de referencia de los renglones #3 y #4, a continuación:
+De este: 
+PRODUCT REFERENCES:  NORTH T11005, UVEX P/N S 2500/
+REFERENCE PRODUCTS: NORTH T11005S; RADIANS CHIEF P/N 360-S.
+************
+Cambia a: 
+SE ELIMINARON LOS PRODUCTOS DE REFERENCIA.
+2. Se extiende en el Pliego de Cargos Único, numeral 3.1. Términos, plazos de entrega o vigencia del contrato se 
+extiende,
+De: 90 días calendario después de adjudicada la orden de compra o contrato, 
+Cambia a: 120 días calendario después de adjudicada la orden de compra o contrato.
+3. Extender la fecha de conocimiento de propuestas hasta el 09 de octubre de 2026 a las 9:00 a.m.
+Excepto por lo antes expuesto, todos los demás términos y condiciones del pliego permanecen inalterados.
+**********************************************************************************************************************************
+LICITACIÓN DE OBRAS, BIENES Y SERVICIOS - Revisión 23-junio-2026 
+PRIMERA PARTE: Información General 
+LENTES DE PROTECCIÓN PERSONAL
+LA PRESENTACIÓN DE LA PROPUESTA DE PRECIO POR PARTE DEL PROPONENTE EQUIVALDRÁ A LA 
+ACEPTACIÓN, SIN RESERVAS NI CONDICIONES, DE LOS DOCUMENTOS, PLANOS, TÉRMINOS Y 
+CONDICIONES DE ESTE PLIEGO DE CARGOS, TODOS SUS ANEXOS Y ENMIENDAS. 
+FECHA Y HORA LÍMITE PARA EL RECIBO DE PROPUESTAS: Solo serán consideradas las propuestas 
+recibidas ANTES de la fecha y hora límite establecida. La ACP no se hace responsable por demoras ni fallos en la 
+transmisión de la información que se vincule a la plataforma tecnológica utilizada por el proponente y que impidan 
+el recibo de las propuestas dentro del plazo establecido. 
+Cuando el pliego de cargos exija la presentación de una propuesta técnica, el proponente deberá adjuntar la 
+documentación directamente en el sistema de licitaciones en internet (SLI). El sistema tiene la capacidad de 
+aceptar hasta un máximo de quince (15) adjuntos de hasta 15MB cada uno. NOTA: EL SISTEMA ACEPTA 
+ÚNICAMENTE DOCUMENTOS EN FORMATO .PDF 
+Toda propuesta que se ingrese al Sistema de Licitaciones en Internet (SLI) debe ser con el NOMBRE LEGAL de 
+la persona natural o jurídica que, de adjudicarse el contrato, emitirá la factura. En el caso de proponentes locales, 
+corresponde al NOMBRE LEGAL que se tiene en el Registro Único de Contribuyente (RUC) y Dígito Verificador 
+(DV) ante la Dirección General de Ingresos (DGI). 
+Para licitaciones en las que se requiera propuesta técnica, éstas deberán presentarse bajo el mismo NOMBRE 
+LEGAL del proponente que hizo la propuesta de precio en el SLI. No debe utilizarse para efectos de la propuesta 
+ni de facturación, el nombre comercial contenido en el Aviso de Operación. 
+En caso de que la licitación permita la participación de Consorcios, tanto la propuesta de precio en el SLI como la 
+
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+propuesta técnica, deberán ser hechas usando el NOMBRE DEL CONSORCIO, de modo que ambas propuestas 
+(de precio y técnica) coincidan en dicho nombre. 
+1.1 Persona encargada del proceso de selección: Joseline I. Hernández N.; Teléfono: 272-7028; Correo 
+electrónico: JHernandez@pancanal.com 
+1.2 Reunión previa. [ XXX ] No. [ ] Sí. Fecha: _Hora: Lugar: 
+1.3 Validez de las propuestas. [  ] 30, [ XXX ] 60, [ ] 90, [ ] días calendario contados a partir de la celebración del 
+acto de conocimiento de propuestas. 
+[ ] Se requiere Fianza de Propuesta. Cuando se requiera, este documento debe ser entregado en original, en el 
+lugar y antes de la hora y fecha establecidas para el recibo de propuestas. Referirse a las Cláusulas 4.28.73 
+Garantía de Propuesta y 4.28.74, Fianzas, del pliego de cargos. 
+[ ] Sólo para contrataciones de obras. Se requiere Formulario 1530, Licitación/Contrato de Obras. (La omisión o no 
+presentación del formulario 1530 o la falta de información en las casillas 19, 20A, 20D, 20F, 20I y 21A, 21B, 21C, 
+21D, 21E, 21F, 21G, 21H, 21I, 21J, 21K y 21L del formulario, causará la no consideración de la propuesta.) 
+[ ] Sólo para contrataciones de obras. Los proponentes deberán hacer acuse de recibo de todas las enmiendas 
+que se emitan, antes de la fecha y hora establecida para la presentación de la propuesta. El no hacerlo así, será 
+causal para la no consideración de la propuesta. 
+[ ] Se requiere Listado de Precio. 
+1.4 Tipo de Contratación: 
+1.4. A [ ] ESTA ES UNA SOLICITUD DE COTIZACIÓN PARA MICRO-COMPRA. 
+1.4. A.1. La cotización debe ser enviada mediante el uso del sistema de licitación por Internet (SLI), salvo que el 
+pliego de cargos en el numeral 9 de la Segunda Parte Especificaciones, Términos y Condiciones, establezca de 
+manera específica otro medio para la recepción de la cotización de precio. 
+1.4. A.2. Notificación de la intención de compra. Notificada la intención de adjudicarle la compra cotizada, el 
+proponente tendrá un plazo contado a partir del día siguiente a la fecha en que se le envíe la notificación para que 
+comunique su aceptación o rechazo de la intención de compra de: 
+[ ] 8 horas hábiles 
+[ ] 16 horas hábiles 
+[ ] 24 horas hábiles 
+La aceptación de la intención de compra por parte del proponente resultará en la adjudicación de la orden de 
+compra. 
+1.4. B. [ XXX ] ESTA ES UNA CONTRATACIÓN DE OBRAS, BIENES Y SERVICIOS CON MONTO SUPERIOR 
+A MICRO-COMPRA. 
+1.4. B.1. La propuesta debe ser enviada mediante el uso del sistema de licitación por Internet (SLI), salvo que se 
+indique expresamente otro mecanismo de entrega en las instrucciones que aparecen en el pliego de cargos de la 
+licitación o su versión revisada por enmiendas en el Sistema de Licitación por Internet (SLI) de ACP en los casos 
+que aplique, o en esta primera parte del formulario. 
+1.4. B.2. Las propuestas presentadas podrán ser retiradas o reemplazadas antes de la fecha y hora límite 
+establecidas para la presentación de propuestas. En los casos en que la propuesta haya sido enviada mediante el 
+Sistema de Licitaciones por Internet (SLI), el reemplazo o retiro de la propuesta deberá realizarse por medio de 
+este sistema, antes de la fecha y hora de cierre para la presentación de propuestas. 
+1.4. B.3. Proceso de selección de contratista.
+[ XXX ] Licitación pública en base al precio más bajo.
+
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+[  ] Licitación negociada de precio más bajo con los siguientes elementos básicos: 
+[ ] Licitación negociada de mejor valor con los siguientes elementos básicos: 
+[ ] Licitación en dos etapas con los siguientes elementos básicos:
+[ ] Licitación negociada de precio más bajo de subasta en reversa. 
+Para licitaciones públicas en base al precio más bajo, licitaciones negociadas en sus tres modalidades, licitación 
+de mejor valor no negociada y la licitación pública en dos etapas, cuando se haya establecido como elemento 
+básico la presentación de propuesta técnica o información específica y/o la presentación de una fianza, la falta de 
+presentación de esta documentación causará la no-consideración o rechazo de la propuesta presentada. Este 
+rechazo se dará en el acto de conocimiento de propuestas. 
+1.5. Forma de adjudicación. (Criterio de selección) 
+[ XXX ] Precio más bajo por renglón. 
+[  ] Precio más bajo sobre la base de la suma de todos los renglones. 
+Cuando no se seleccione ninguna de las dos opciones, se entenderá que la adjudicación será sobre la base de la 
+suma de todos los renglones. 
+[ ] Precio más bajo por lote No se considerará para la adjudicación las propuestas que no oferten en todas las 
+líneas del lote. 
+[ ] Precio más bajo sobre la base de la suma del periodo base y las renovaciones. (Para contratos con 
+renovaciones.) 
+[ ] Propuesta que ofrezca la mejor relación entre el precio y la calidad (Propuesta de mejor valor) 
+1.6. Propuesta técnica. 
+[ ] No se requiere propuesta técnica. La presentación de la propuesta de precio demuestra por si sola que ésta 
+cumple con todos los requerimientos del pliego de cargos. 
+[ XXX ] Se requiere propuesta técnica para verificación de cumplimiento con los requisitos de la licitación. El 
+proponente deberá adjuntar su propuesta técnica, directamente en el sistema de licitaciones en internet, y 
+únicamente en formato .pdf, antes de la fecha y hora establecida para el acto de conocimiento de propuestas.
+[ XXX ] En el caso de bienes, la propuesta técnica debe incluir la marca, modelo y cuando se requiera, el número 
+de parte del bien ofertado, dimensiones, medidas y pesos de los bienes solicitados o cualquier información que 
+compruebe que el bien ofertado cumple con los requerimientos técnicos solicitados. La falta de presentación de 
+los datos exigidos en el plazo estipulado causará la no-consideración de la propuesta presentada en el acto de 
+conocimiento de propuestas. 
+[ ] La Hoja de Datos de Seguridad (Material Safety Data Sheet) requerida en la descripción del bien debe ser 
+presentada por la vía indicada en el pliego antes de la fecha y hora establecida para el acto de conocimiento de 
+propuestas. No se aceptarán productos que contengan uno o más elementos o compuestos cuyo uso esté 
+prohibido en la Autoridad del Canal (ACP), ni el uso de los mismos en la prestación de servicios. Para conocer la 
+lista de productos prohibidos en la ACP, favor ingresar al siguiente enlace: https://pancanal.com/higiene-
+ocupacional-e-industrial- data/, y abrir el documento Lista de Materiales Peligrosos
+. 
+SEGUNDA PARTE - ESPECIFICACIONES, TÉRMINOS Y CONDICIONES. 
+2. Descripción del bien o servicio. LENTES DE PROTECCIÓN PERSONAL.
+2.1. Especificaciones técnicas. **REFERIRSE A LA DESCRIPCIÓN CONTENIDA EN EL RENGLÓN**.
+ 
+2.2. Requisitos. **ENVIAR PROPUESTA TÉCNICA Y ECONÓMICA POR INTERMEDIO DEL SLI. **VER 
+NUMERAL 9, MUESTRAS Información adicional**. 
+2.3. Presunción de novedad. 
+[ XXX ] La Autoridad adquirirá bienes nuevos. Se entiende que es nuevo todo bien que, por razones comerciales, 
+
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+un proveedor venda o proporcione a la Autoridad, si no ha advertido previa y expresamente que dicho bien es 
+usado. 
+[ ] Se aceptará bienes usados. 
+[ ] Se aceptará bienes reconstruidos. 
+[ ] Otros. El Oficial de Contrataciones podrá establecer un período máximo de fabricación de años, para los bienes 
+nuevos. Cuando no se seleccione ninguna de las cuatro opciones, se entenderá que la Autoridad adquirirá bienes 
+nuevos. 
+2.4. Para las contrataciones de obra, refiérase a los anexos de la licitación o su versión revisada por enmiendas, 
+según aplique. 
+3. Términos y condiciones de entrega. 
+3.1. Términos, plazos de entrega o vigencia del contrato: 120 días calendario después de adjudicada la orden de 
+compra o contrato. 
+3.2. Condiciones de entrega y lugar de entrega. 
+[ XXX ] DAP Panamá. Cuando los términos de entrega sean DAP Panamá, el contratista es responsable del 
+trámite de la declaración simplificada de aduanas y su costo; además de descargar los bienes y ponerlos en sitio. 
+[ ] DAP Panamá. Cuando los términos de entrega sean DAP Panamá, el contratista es responsable del trámite de 
+la declaración simplificada de aduanas y su costo. 
+[ ] DAP Panamá. Cuando los términos de entrega sean DAP Panamá, el contratista es responsable de descargar 
+los bienes y ponerlos en sitio. 
+[ ] DAP Panamá. Cuando los términos de entrega sean DAP Panamá, el contratista no es responsable de 
+descargar los bienes y ponerlos en sitio.
+[ XXX ] Otro.  Lugar de entrega:
+Autoridad del Canal de Panamá
+Sección de Almacenes
+Corozal Oeste, Edificio 652, Área de recibo
+4. Inspección, aceptación y traspaso de título. 
+4.1 Inspección. Ver el artículo 164 del Reglamento de Contrataciones de la ACP. 
+4.2. Control de calidad. Ver el artículo 165 del Reglamento de Contrataciones de la ACP. 
+4.3. Aceptación y traspaso de título. La Autoridad sólo aceptará bienes y servicios de conformidad con las 
+especificaciones, términos y condiciones estipuladas en el contrato. 
+5. Garantías. [ ] Comercial. [XXX ] Otras: Por un período no menor de un (1) año, contado desde la fecha de 
+recepción del objeto del contrato. 
+5.1 Para las contrataciones de obras, referirse a la Cláusula 4.28.51, Garantía de la Obra. 
+6. Representación y/o presencia local en la República de Panamá. 
+Para presencia local se permiten proponentes (Puede seleccionar más de uno): 
+[ ] Que estén establecidos localmente; 
+[ ] Extranjeros con representación local; 
+[ XXX ] No es requerida la presencia local del contratista. 
+
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+7. Clase de contrato. [ XXX ] Cantidad y precio fijo. [ ] Cantidades estimadas y precio unitario fijo. 
+[ ] Ambas clases de contrato (Detallar los renglones que son de cantidades fijas y los de cantidades estimadas): 
+8. Multas por entrega tardía. 
+Cuando no se cumpla con el plazo de ejecución del contrato u orden de compra por causas imputables al 
+contratista, el oficial de contrataciones, además de poder optar por resolver el contrato u orden de compra, podrá 
+imponer multa por atraso en el cumplimiento, situación en la que para lo cual el oficial de contrataciones aplicará 
+la siguiente multa por atrasos en la ejecución del contrato, entendiéndose que cuando no se seleccione una de las 
+opciones para el cálculo de la multa, será aplicable el literal A de manera supletoria: 
+A. [ ] 7%, del valor de la mercancía (V) no entregada o servicio no prestado de la orden de compra o contrato, 
+dividido entre 30 días y multiplicado por cada día de atraso. (DA): ((7% x V ÷ 30) x DA). 
+B. [ XXX ] Imponiendo una multa de hasta un máximo de 10% del valor del bien no entregado o servicio no 
+prestado de la orden de compra o contrato por cada prórroga. En ninguno de los casos la multa podrá ser superior 
+al 10% del valor de la orden de compra o contrato no entregado o prestado, por cada prórroga otorgada. 
+C. [ ] Para licitaciones de obras, referirse a la Cláusula 4.28.53, Multa o Sanción Pecuniaria por Atraso en la 
+Ejecución de la obra.
+ 
+9. Otros
+9.1 Se aceptarán LENTES DE PROTECCIÓN PERSONAL que cumplan al 100% con las especificaciones 
+indicadas en los renglones. Los oferentes deberán verificar que el artículo ofertado cumpla con la totalidad de los 
+requisitos establecidos en la descripción del renglón correspondiente, la cual deberá presentar, a través del SLI y 
+junto con su propuesta técnica. 
+Cuando la descripción lo requiera, deberá suministrar muestra conforme a la descripción y al numeral 9.2 y 9.3, 
+identificado con el número de la orden de compra y número de propuestas; así como el nombre del proponente.
+9.1.1 Si el proponente ofrece algunos de los productos (marca(s) y modelo(s) de referencia especificados en 
+nuestra descripción, no será necesario la presentación de propuesta técnica, sin embargo, es OBLIGATORIO que 
+lo INDIQUE en su propuesta técnica directamente en SLI, de lo contrario su propuesta no será considerada.
+9.1.2 Toda la documentación técnica presentada será clara y legible. "Copy Paste" de los requisitos del pliego no 
+será considerada como propuesta técnica. Cada documento de la propuesta técnica presentado debe definir a 
+qué renglón aplica.
+9.1.3 El Proponente señalará o resaltará en los documentos presentados como su propuesta técnica, cada 
+característica y/o requisito donde demuestre el cumplimiento con cada requisito solicitado en el pliego.
+9.1.4 ACLARACIÓN: 
+La medida es PR (significa: pair/par/each/unidad). 
+El requisito "TO FIT OVER PRESCRIPTION GLASSES", significa: aptos para utilizarse sobre lentes graduados.
+9.1.5 Si el número de referencia indicada en los renglones del pliego de cargos ha sido reemplazado por el 
+fabricante, el proponente deberá indicarlo en su propuesta y adjuntar la literatura técnica que lo respalde, POR 
+INTERMEDIO DEL SLI.
+9.2 ENTREGA DE MUESTRAS: Con base en lo indicado en las descripciones que apliquen, con excepción si se 
+ofrece el producto de referencia ACP; para que la propuesta sea considerada, el proponente deberá enviar una 
+muestra de los artículo(s) ofertado(s). Las muestras deben venir identificadas con el nombre del proponente, 
+número de pliego y número de propuesta a la cual corresponden, de lo contrario su propuesta no será 
+considerada.
+LUGAR DE ENTREGA: Balboa, Ancón, Edificio 710, planta baja, recepción.
+HORARIO: 7:15 a.m. - 11:00 a.m. y 12:15 p.m. - 3:15 p.m.; antes de la fecha y hora de cierre de la licitación.
+
+Fecha y hora ACP
+07-oct-2026
+09:37:26 a. m.
+9.3 Las muestras presentadas serán a costo del proponente y no estarán sujetas al proceso de exoneración de 
+impuestos.
+9.4 RETIRO DE MUESTRAS: Una vez adjudicado el contrato, los proponentes que hayan presentado muestras 
+deberán proceder con su retiro en un plazo máximo de diez (10) días hábiles contados a partir de la fecha de 
+adjudicación. En caso de no ser retiradas dentro del plazo establecido, se dispondrá de ellas en el mejor interés 
+de la Autoridad del Canal de Panamá.
+9.5 CONSULTAS: Los proponentes que requiera realizar consultas sobre este pliego de cargos, deberán hacerlo 
+por escrito al correo electrónico JHernandez@pancanal.com, con suficiente tiempo de antelación para permitir que
+las respuestas puedan distribuirse a todos los interesados.
+9.6 Se permitirán entregas parciales por cada renglón adjudicado, pero únicamente por la totalidad de artículos 
+solicitados en cada renglón. La facturación de estos renglones será igualmente por la totalidad de artículos 
+solicitados.
+9.7 Con la entrega, la ACP se reserva el derecho de solicitar documentación adicional al contratista, que permita 
+la trazabilidad y que demuestre que los repuestos provienen directamente del fabricante o de un distribuidor 
+autorizado del fabricante.
+9.8 El contratista será responsable que los bienes sean empacados, embalados, estibados, contenerizados y 
+entregados utilizando las mejores prácticas comerciales de manera que se garantice la facilidad de la descarga en 
+el punto de entrega establecido en el contrato (Referencias ASTM D5728). Los medios de transporte utilizados 
+por el contratista para las entregas deberán reunir las condiciones mínimas de capacidad y accesibilidad para la 
+descarga apropiada del bien. La ACP se reserva el derecho de rechazar cualquier entrega que no cumpla con 
+este requisito y/o que se considere no brinde la seguridad para evitar la posibilidad de daños a la propiedad de 
+ACP, contratista o el agente de servicio de transporte utilizado por el contratista.
+9.9 PROTESTAS CONTRA EL PLIEGO DE CARGOS: Según el artículo 92 del Reglamento de Contrataciones de 
+la ACP, se establece como fecha límite para interponer una protesta en contra del pliego de cargos dos días 
+hábiles antes de la fecha de cierre de la licitación.
